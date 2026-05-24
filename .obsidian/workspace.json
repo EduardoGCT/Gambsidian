@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "bf69cda5263e78e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6579609b130f93c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a3bfba8d93222ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "English vocabulary/Words that i learned while studying.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Words that i learned while studying"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "afbaff4c30117f14",
+    "type": "split",
+    "children": [
+      {
+        "id": "1793648ed166a2a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90d11d8e005d15a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4f6457e902f2f5fd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "9e6ebcc2c872bd82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "28897c9d9fab3af6",
+    "type": "split",
+    "children": [
+      {
+        "id": "02be83686deddf2d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0312bbe5598cb994",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "507898dcefa24a0b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ace696b6e2722810",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c0b71bce739d593e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "bc5e8911159cd894",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "0a3bfba8d93222ac",
+  "lastOpenFiles": [
+    "Roadmap anotações/Frontend/2 - CSS.md",
+    "English vocabulary/Words that i learned while studying.md",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260521220953.png",
+    "Roadmap anotações/Frontend/1 - HTML.md",
+    "Roadmap anotações/Frontend/3 - JavaScript.md",
+    "Roadmap anotações/Frontend/imgs",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260522202141.png",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260522202134.png",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260522201727.png",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260522201628.png",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260522181833.png",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260522181626.png",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260521221550.png",
+    "Roadmap anotações/Tecnologias que vou focar frontend.md",
+    "English vocabulary/Words that i learned while studying",
+    "English vocabulary",
+    "HTML.md",
+    "Roadmap anotações/Tecnologias de Devops.md",
+    "Roadmap anotações/Devops/5 - Ansible.md",
+    "Roadmap anotações/Devops/4 - GitHub Action.md",
+    "Roadmap anotações/Devops/6 - Terraform.md",
+    "Roadmap anotações/Devops/1 - Linux servers.md",
+    "Roadmap anotações/Devops/3 - Monit.md",
+    "Roadmap anotações/Devops/2 - AWS Services.md",
+    "Roadmap anotações/Tecnologias que vou focar backend.md",
+    "Roadmap anotações/Frontend/HTML.md",
+    "Roadmap anotações/Backend/4 - JWT.md",
+    "Roadmap anotações/Backend/3 - RESTful APIs.md",
+    "Roadmap anotações/Backend/1.b - Django.md",
+    "Roadmap anotações/Backend/2 - PostgreSQL.md",
+    "Roadmap anotações/Backend/5 - Redis.md",
+    "Roadmap anotações/Backend/1.a - Java.md",
+    "Roadmap anotações/Frontend/8 - React.md",
+    "Roadmap anotações/Frontend/7 - Tailwind CSS.md",
+    "Roadmap anotações/Frontend/5 - GitHub.md",
+    "Roadmap anotações/Frontend/5 - GIT.md",
+    "Roadmap anotações/Devops",
+    "Roadmap anotações/Backend",
+    "Roadmap anotações/Frontend",
+    "Roadmap anotações"
+  ]
+}
