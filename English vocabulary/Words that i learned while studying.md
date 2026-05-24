@@ -14,3 +14,4 @@ Established = Estabelecida/cido
 Fairly large = Bastante grande
 Mainly = Principalmente
 Happiness = Felicidade
+.
