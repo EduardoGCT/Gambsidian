@@ -2,7 +2,10 @@ Preciso pesquisar cada sinônimo e cada forma de se utilizar de cada palavra ano
 
 ### Shrink = encolher
 
-
+Infinitive (Presente) = Shrink
+Past Simple (Passado Simples) = Shrank (encolheu/encolheram)
+Past Participle (Particípio passado) = Shrunk (encolhido)
+-ing (Gerúndio/Presente Contínuo) =
 ### Shrimp = Camarão
 ### Combinators = Combinadores
 ### Sibling = irmã/irmão
