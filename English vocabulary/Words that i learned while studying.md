@@ -3,15 +3,15 @@ Preciso pesquisar cada sinônimo e cada forma de se utilizar de cada palavra ano
 ### Shrink = encolher
 
 ##### Formas verbais
-- Infinitive (Presente)                            = Shrink
-- Past Simple (Passado Simples)         = Shrank (encolheu/encolheram)
+- Infinitive (Presente) = Shrink
+- Past Simple (Passado Simples) = Shrank (encolheu/encolheram)
 - Past Participle (Particípio passado) = Shrunk (encolhido)
 - -ing (Gerúndio/Presente Contínuo) = Shrinking (encolhendo)
-- He/She/It (Terceira pessoa)               =  Shrinks (encolhe)
+- He/She/It (Terceira pessoa) =  Shrinks (encolhe)
 
 ##### Plural (Como substantivo/gíria)
  - Singular = Shrink (psicólogo)
- - Plural      = Shrinks (psicólogos)
+ - Plural = Shrinks (psicólogos)
 
 
 
@@ -20,15 +20,15 @@ Preciso pesquisar cada sinônimo e cada forma de se utilizar de cada palavra ano
 ##### Formas Verbais
  Raramente é usado como verbo, mas no inglês muito específico pode significar "pescar camarão"
 
-- Infinitive (Presente)                           = Shrimp
-- Past Simple (Passado Simples)        = Shrimped
+- Infinitive (Presente) = Shrimp
+- Past Simple (Passado Simples) = Shrimped
 - Past Participle (Particípio Passado) = Shrimping
-- Third Person (He/She/It)                   = Shrimps
+- Third Person (He/She/It) = Shrimps
 
 ##### Plural and Noun Forms (Plural e Formas Substantivas)
 
 - Singular = Shrimp
-- Plural      = Shrimp (Geral, para comida ou grandes quantidades) ou Shrimps (específico para contar unidades)
+- Plural = Shrimp (Geral, para comida ou grandes quantidades) ou Shrimps (específico para contar unidades)
 
 ##### Exemples with the Verb to Be
 
@@ -45,16 +45,16 @@ Functions or devices that combine separate things. In computer science and logic
 
 ##### Verb Forms
 
-- Present (Infinitive)           = Combine (Combinar)
-- Past Simple                       = Combined (Combinou / Combinaram)
-- Past Participle                  = Combined (Combinado)
-- Gerund (-ing)                    = Combining (Combinando)
+- Present (Infinitive) = Combine (Combinar)
+- Past Simple = Combined (Combinou / Combinaram)
+- Past Participle = Combined (Combinado)
+- Gerund (-ing) = Combining (Combinando)
 - Third Person (He/She/It) = Combines (Combina)
 
 ##### Plural and Noun Forms 
 
 - Singular = Combinator (Combinator)
-- Plural      = Combinators (Combinadores)
+- Plural = Combinators (Combinadores)
 
 ##### Examples with the Verb to Be
 
@@ -75,7 +75,7 @@ A brother or sister; a person having one or both parents in common with another.
 ##### Plural and Noun Forms
 
 - Singular = Sibling (irmão ou irmã)
-- Plural     = Siblings (Irmãos - misto ou apenas homens/mulheres)
+- Plural = Siblings (Irmãos - misto ou apenas homens/mulheres)
 
 ##### Examples with the Verb to Be
 
@@ -132,11 +132,11 @@ Attractive or interesting; causing people to like or want something.
 
 "Appealing" funciona primariamente com um adjetivo, mas ele é derivado do verbo *to appeal* (apelar, atrair, recorrer).
 
-- Present (Infinitive)           = Appeal (Apelar / Atrair)
-- Past Simple                       = Appealed (Apelou / Atraiu / Apelaram / Atraíram)
-- Past Participle                   = Appealed (Apelado / Atraído)
-- Gerund (-ing)                     = Appealing (Apelando / Atraindo)
-- Third Person (He/She/It)  = Appeals (Apela / Atrai) 
+- Present (Infinitive) = Appeal (Apelar / Atrair)
+- Past Simple = Appealed (Apelou / Atraiu / Apelaram / Atraíram)
+- Past Participle = Appealed (Apelado / Atraído)
+- Gerund (-ing) = Appealing (Apelando / Atraindo)
+- Third Person (He/She/It) = Appeals (Apela / Atrai) 
 
 ##### Plural and Noun Forms
 
@@ -154,6 +154,7 @@ Those options are not appealing to me. => Aquelas opções não são interessant
 
 ### Aesthetic Appeal = Apelo estético/atrativo estético (bonito visualmente)
 
+.
 
 ### Within = Dentro de 
 
