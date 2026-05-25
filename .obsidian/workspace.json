@@ -35,7 +35,8 @@
               "title": "Words that i learned while studying"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,11 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c33425027c6c1b32",
+  "active": "3b3d681ce900e373",
   "lastOpenFiles": [
-    "Pasted image 20260525193416.png",
-    "English vocabulary/Words that i learned while studying.md",
     "Roadmap anotações/Frontend/3 - JavaScript.md",
+    "English vocabulary/Words that i learned while studying.md",
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260525193416.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525193156.png",
     "Roadmap anotações/Backend/1.a - Java.md",
     "Java.md",
@@ -213,7 +214,6 @@
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525183002.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525182955.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525182840.png",
-    "Roadmap anotações/Frontend/imgs/Pasted image 20260525182836.png",
     "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
     "Idéias de Projetos",
     "Roadmap anotações/Frontend/1 - HTML.md",
