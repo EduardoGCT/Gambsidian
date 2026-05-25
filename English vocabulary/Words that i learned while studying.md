@@ -217,4 +217,10 @@ Those options are not appealing to me. => Aquelas opções não são interessant
 
 
 
-###
+### Throughout = Por todo
+
+
+
+---
+
+

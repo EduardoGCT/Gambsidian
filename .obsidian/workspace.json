@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap anotações/Frontend/2 - CSS.md",
+                "file": "Roadmap anotações/Frontend/3 - JavaScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 - CSS"
+              "title": "3 - JavaScript"
             }
           },
           {
@@ -196,9 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e6ebcc2c872bd82",
+  "active": "c33425027c6c1b32",
   "lastOpenFiles": [
     "English vocabulary/Words that i learned while studying.md",
+    "Roadmap anotações/Frontend/3 - JavaScript.md",
     "Roadmap anotações/Frontend/2 - CSS.md",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525184609.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525183722.png",
@@ -213,7 +214,6 @@
     "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
     "Idéias de Projetos",
     "Roadmap anotações/Frontend/1 - HTML.md",
-    "Roadmap anotações/Frontend/3 - JavaScript.md",
     "Roadmap anotações/Frontend/imgs",
     "Roadmap anotações/Tecnologias que vou focar frontend.md",
     "English vocabulary/Words that i learned while studying",
