@@ -124,6 +124,10 @@ Used before the second or further of two or more alternatives to indicate that t
 
 ### Appealing = Atraente 
 
+
+
+
+
 ### Aesthetic Appeal = Apelo estético/atrativo estético (bonito visualmente)
 
 
