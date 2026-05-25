@@ -1,4 +1,5 @@
 
+# Basic CSS
 ## What is CSS?
 
 **CSS** (short for **Cascading Style Sheets**) is the language used to control the visual presentation and layout of websites. While [[1 - HTML]] defines the content and structure (like headers and paragraphs), CSS tells the browser exactly how that content should look—handling everything from colors and fonts to positioning and animations.
@@ -224,3 +225,6 @@ The universal selector has the lowest specificity value of any selector. Ir cont
 
 This means that any other selector, including type selectors, class selectors, and inline styles, will override the styles set by the universal selector.
 
+
+
+### What
