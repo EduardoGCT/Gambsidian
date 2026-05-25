@@ -168,6 +168,8 @@ When using four values, this gives you more control, as you can independently sp
 
 ## CSS Specificity, the Cascade Algorithm, and Inheritance
 
+### What is CSS Specificity, and the Specificity for inline, internal, and External CSS?
 
+CSS specificity is a fundamental concept
 
 
