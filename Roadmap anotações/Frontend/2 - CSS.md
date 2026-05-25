@@ -178,5 +178,49 @@ CSS specificity is calculated based on the type of selectors used.
 
 The highest specificity is attributed to inline styles, which are applied directly to an element through the style attribute.
 
+When comparing **Inline**, **Internal**, and **External** CSS, the default hierarchy depends heavily on proximity and location weight:
 
+1. **Inline CSS** `(1, 0, 0, 0)` ➔ **Highest Priority**
+   - Applied directly to an element via the `style` attribute (e.g., `<p style="color: red;">`).
+   - Overrides any internal or external stylesheet rules (unless `!important` is used).
+1. **Internal CSS** ➔ **Medium Priority (Contextual)**
+   - Defined within `<style>` tags inside the `<head>` section of an HTML document.
+   - *Note:* It shares the same inherent selector-based rules as External CSS, but often overrides external styles purely due to **Source Order** (typically placed after external `<link>` tags).
+3. **External CSS** ➔ **Lowest Priority (Contextual)**
+   - Written in a separate `.css` file and linked using the `<link>` element.
+   - Provides the best code maintainability but can be easily overridden by internal and inline styles.
+
+Specificity is represented as a four-part weight vector: **`(Inline, ID, Class, Type)`**
+
+| Selector Level | Weight Category | Specificity Value | Examples / Description |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | **Inline Style** | `(1, 0, 0, 0)` | Written directly inside the HTML tag attribute. |
+| **Level 2** | **ID Selectors** | `(0, 1, 0, 0)` | Targets unique structural elements (e.g., `#header`, `#submit-btn`). |
+| **Level 3** | **Class, Attributes & Pseudo-classes** | `(0, 0, 1, 0)` | Targets reusable blocks (e.g., `.btn`, `[type="text"]`, `:hover`). |
+| **Level 4** | **Element Type & Pseudo-elements** | `(0, 0, 0, 1)` | Targets raw HTML tags (e.g., `p`, `div`, `h1`, `::before`). |
+
+When multiple matching selectors possess conflicting definitions, the Cascade Algorithm filters and resolves them using these subsequent tie-breakers:
+
+1. **Specificity Score:** The selector with the highest weight vector wins (e.g., `(0, 1, 0, 0)` beats `(0, 0, 2, 5)`).
+2. **Source Order (The Last Resort):** If the specificity scores are completely identical, the rule that appears **last (closest to the bottom)** in the CSS processing order wins and overrides previous declarations.
+---
+
+
+
+### What Is the Universal Selector, and What Is Its Specificity?
+
+The universal selector (`*`) is a special type of CSS selector that matches any element in the document.
+
+It is often used to apply a style to all elements os the page, which can be useful for resetting or normalizing styles across different browsers.
+
+The universal selector can be used to select all elements within a specific context or globally across the entire document. 
+
+An example of using the universal selector for setting the `margin` and `padding` for the entire HTML document:
+![[Pasted image 20260525173248.png]]
+![[Pasted image 20260525173313.png]]
+
+
+The universal selector has the lowest specificity value of any selector. Ir contributes 0 to all parts of the specificity value (0, 0, 0, 0).
+
+This means that any other selector, including type selectors, class selectors, and inline styles, will override the styles set by the universal selector.
 
