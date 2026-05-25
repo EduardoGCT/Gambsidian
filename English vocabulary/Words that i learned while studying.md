@@ -75,7 +75,7 @@ A brother or sister; a person having one or both parents in common with another.
 ##### Plural and Noun Forms
 
 - Singular = Sibling (irmão ou irmã)
-- Plural = Siblings (Irmãos - misto ou apenas homens/mulheres)
+- Plural     = Siblings (Irmãos - misto ou apenas homens/mulheres)
 
 ##### Examples with the Verb to Be
 
@@ -124,7 +124,31 @@ Used before the second or further of two or more alternatives to indicate that t
 
 ### Appealing = Atraente 
 
+##### Meaning
 
+Attractive or interesting; causing people to like or want something.
+
+##### Verb Forms
+
+"Appealing" funciona primariamente com um adjetivo, mas ele é derivado do verbo *to appeal* (apelar, atrair, recorrer).
+
+- Present (Infinitive)           = Appeal (Apelar / Atrair)
+- Past Simple                       = Appealed (Apelou / Atraiu / Apelaram / Atraíram)
+- Past Participle                   = Appealed (Apelado / Atraído)
+- Gerund (-ing)                     = Appealing (Apelando / Atraindo)
+- Third Person (He/She/It)  = Appeals (Apela / Atrai) 
+
+##### Plural and Noun Forms
+
+Como adjetivo, "appealing" não muda de forma para o plural. As formas abaixo referem-se ao substantivo "appeal"
+
+- Singular = Appeal (Apelo / Atrativo)
+- Plural      = Appeals (Apelos / Atrativos)
+
+##### Examples with the Verb to Be
+
+This user interface is very appealing. => Esta interface é muito atraente/bonita.
+Those options are not appealing to me. => Aquelas opções não são interessantes para mim.
 
 
 
