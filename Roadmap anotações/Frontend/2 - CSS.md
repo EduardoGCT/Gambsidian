@@ -4,8 +4,7 @@
 **CSS** (short for **Cascading Style Sheets**) is the language used to control the visual presentation and layout of websites. While [[1 - HTML]] defines the content and structure (like headers and paragraphs), CSS tells the browser exactly how that content should look—handling everything from colors and fonts to positioning and animations.
 
 
-
-## What is the Meta Viewport element used for?
+### What is the Meta Viewport element used for?
 
 Is a crucial component in responsive web design.
 
@@ -24,7 +23,7 @@ Normally it's used on the tag `head` of the [[1 - HTML]].
 
 
 
-## How do Width and Height work?
+### How do Width and Height work?
 
 You can use with values like pixels(px), percentages(%), viewport units (vw, vh), and more.
 
@@ -42,7 +41,7 @@ The `max-height` specifies the maximum height an element can grow to, regardless
 
 
 
-## What Are the Different Types of CSS Combinators?
+### What Are the Different Types of CSS Combinators?
 
 CSS combinators are used to define the relationship between selectors in CSS. They help in selecting elements based on their relationship to other elements, which allows for more precise and efficient styling. 
 
@@ -90,7 +89,7 @@ Unlike the next-sibling combinator, which targets only the immediately following
 
 
 
-## What Is the Difference Between Inline and Block-Level elements in CSS?
+### What Is the Difference Between Inline and Block-Level elements in CSS?
 
 In [[1 - HTML]] and CSS, elements are classified as either inline elements or block-level elements, and this classification dictates how they behave in the document layout.
 
@@ -127,7 +126,7 @@ In this example, we have a `span` element nested inside of a paragraph element
 
 
 
-## How Does Inline-Block Work, and How Does It Differ from Inline and Block Elements?
+### How Does Inline-Block Work, and How Does It Differ from Inline and Block Elements?
 
  The `inline-block` property remains in the text flow without starting on a new line.
 
@@ -148,7 +147,7 @@ But if you remove the `display: inline-block;` property, neither the height nor 
 
 
 
-## What Are Margins and Padding, and How Do They Work?
+### What Are Margins and Padding, and How Do They Work?
 
 Margin and padding are essential properties in CSS for creating well-structured, readable, and visually appealing web pages.
 
@@ -165,4 +164,10 @@ When using four values, this gives you more control, as you can independently sp
 `p {
 	margin: 10px 20px 30px 40px;
 }`
+
+
+## CSS Specificity
+
+
+
 
