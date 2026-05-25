@@ -225,6 +225,121 @@ The universal selector has the lowest specificity value of any selector. Ir cont
 
 This means that any other selector, including type selectors, class selectors, and inline styles, will override the styles set by the universal selector.
 
+---
 
 
-### What
+### What Is the Specificity for Type Selectors? 
+
+Type selectors, also known as element selectors, target elements based on their tag name. 
+
+These selectors are fundamental in CSS and allow you to apply styles to all instances of a specific HTML element. 
+
+Type selectors are straightforward to use and are written simply as the tag name of the element you want to style.
+![[Pasted image 20260525182321.png]]
+
+Type selectors have a relatively low specificity compared to other selectors. The specificity value for a type selector is `(0, 0, 0, 1)`.
+
+---
+
+
+
+### What Is the specificity for Class Selectors?
+
+Class selectors are a key part of a CSS, allowing developers to target multiple elements with the same class attribute and apply consistent styling.
+
+![[Pasted image 20260525182836.png]]
+![[Pasted image 20260525182840.png]]
+
+The specificity value for a class selector is `(0, 0, 1, 0)`. This means that class selectors can override type selectors, but they can be overridden by ID selectors and inline styles.
+
+Class selectors can be combined with other selectors to create more specific rules. 
+
+![[Pasted image 20260525182955.png]]
+![[Pasted image 20260525183002.png]]
+
+---
+
+
+### What Is the Specificity for ID Selectors?
+
+ID selectors are among the most powerful selectors in CSS, allowing developers to apply styles to a specific elements with unique identifiers.
+
+This makes them highly effective for targeting individual elements that need unique styling. 
+
+ID selectors are defined by a hash (`#`) followed by the ID name. They should be unique within an HTML document, meaning no two elements should share the same ID.
+
+![[Pasted image 20260525183711.png]]
+![[Pasted image 20260525183722.png]]
+
+---
+
+ID selectors have a very high specificity, higher than type selectors and class selectors, but lower than inline styles. The specificity value for an ID selector is `(0, 1, 0, 0)`.
+
+This means that ID selectors can override class selectors and type selectors but can be overridden by inline styles.
+
+---
+
+
+
+### What Is the important Keyword, and What Are the Best Practices for Using It?
+
+The `!important` keyword in CSS is used to give a style rule the highest priority, allowing it to override any other declarations for a property. 
+
+When used, it forces the browser to apply the specified style, regardless of the specificity of other selectors.
+
+![[Pasted image 20260525184609.png]]
+
+---
+The `!important` keyword in CSS is used to give a style rule the highest priority, effectively overriding other declarations, including those with higher specificity and inline styles.
+
+However, the `!important` keyword does not change the specificity of the CSS selector itself. It simply ensures that the rule with `!important` is applied, even if there are other conflicting rules with higher specificity.
+
+Another appropriate use case for the `!important` keyword is to override styles from third-party libraries or frameworks when you do not have control over the original CSS.
+
+However, overusing the `!important` keyword can lead to difficulties in maintaining and debugging your CSS, as it breaks the natural cascading of styles and can lead to unintended consequences.
+
+So, it is best to use the `!important` keyword sparingly.
+
+---
+
+
+
+### How Does the Cascade Algorithm Work at a High Level?
+
+The Cascade algorithm is the process the browser uses to decide which CSS rules to apply when there are multiple styles targeting the same element. It ensures that the most appropriate styles are used, based on a set of well-defined rules.
+
+The process begins with **relevance**. The browser first filters all the CSS rules to find those that actually apply to the element in question. This includes matching selectors and considering media queries that might be in effect.
+
+A media query is a CSS technique used to apply styles based on the characteristics of the device or viewport, such as its width, height, or orientation.
+
+Next, the algorithm considers **origin and importance**. CSS can come from different sources: the browser’s default styles (user-agent), styles set by the user, and styles written by the author (you).
+
+Following the consideration of origin, the algorithm then evaluates the importance of each rule, giving priority to rules marked with `!important`, which override other rules regardless of their source.
+
+After filtering by origin and importance, the algorithm looks at **specificity**. When two rules from the same origin and importance level apply, the rule with the higher specificity will be applied.
+
+Specificity is a measure of how targeted a selector is, with more specific selectors taking precedence over more general ones.
+
+Finally, if everything else is equal, the **order of appearance** comes into play. When two rules have the same specificity, the one that appears last in the CSS will be applied.
+
+This is why the order in which you write your styles can sometimes affect the outcome.
+
+
+
+---
+
+
+
+### How Does Inheritance Work with CSS at a High Level?
+
+Inheritance is a key concept in CSS that determines how styles are passed down from parent elements to their child elements. 
+
+Just like in the real world, where children often inherit traits from their parents, in CSS, certain properties can be inherited by child elements from their parent elements.
+
+This allows for a more efficient way to apply consistent styling across an entire document. 
+
+In CSS, not all properties are inherited by default. For example, properties like `color`, `font-family`, and `line-height` are inherited. This means that if you set the text color on a parent element, all of its child elements will inherit that color unless you specifically override it.
+
+---
+
+

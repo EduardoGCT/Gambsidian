@@ -192,3 +192,29 @@ Those options are not appealing to me. => Aquelas opções não são interessant
 
 
 
+
+### Straightforward = Direto / Direta / Reto / honesto...
+
+
+
+---
+
+
+
+### Inheritance = Herança / A sucessão / o patrimônio
+
+
+
+---
+
+
+
+### Sparingly = Com moderação
+
+
+
+---
+
+
+
+###
