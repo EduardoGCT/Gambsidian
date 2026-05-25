@@ -110,7 +110,15 @@ Como "Whereas" conecta duas ideias, o verb to be aparece nas frases que ela inte
 
 Used before the second or further of two or more alternatives to indicate that they are each untrue or do not happen (often paired with "neither").
 
-#####
+##### Verb Forms (Not applicable, conjunction)
+
+##### Plural and Noun Forms (Not applicable)
+
+##### Examples with Verb to Be
+
+1. He is neither a designer nor a manager. => Ele não é nem designer nem gerente.
+2. The servers are not online, nor is the database. => Os servidores não estão online, nem o banco de dados está. 
+
 
 
 
