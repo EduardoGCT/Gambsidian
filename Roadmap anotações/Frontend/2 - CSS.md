@@ -166,7 +166,7 @@ When using four values, this gives you more control, as you can independently sp
 }`
 
 
-## CSS Specificity
+## CSS Specificity, the Cascade Algorithm, and Inheritance
 
 
 
