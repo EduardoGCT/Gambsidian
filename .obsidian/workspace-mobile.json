@@ -11,10 +11,14 @@
             "id": "d6e50e92b002042e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "English vocabulary/Words that i learned while studying.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Words that i learned while studying"
             }
           }
         ]
@@ -167,9 +171,16 @@
   },
   "active": "d6e50e92b002042e",
   "lastOpenFiles": [
+    "Video ideias/Em busca de uma vida explicável/First one.md",
+    "/Video ideias/Em busca de uma vida explicável/First one.md",
+    "Video ideias/Em busca de uma vida explicável",
+    "Video ideias",
+    "/Video ideias/Em busca de uma vida explicável",
+    "/Video ideias",
+    "2026-05-26.md",
+    "English vocabulary/Words that i learned while studying.md",
     "Roadmap anotações/Frontend/2 - CSS.md",
     "Roadmap anotações/Frontend/1 - HTML.md",
-    "English vocabulary/Words that i learned while studying.md",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525193416.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525193156.png",
     "/Roadmap anotações/Frontend/imgs/Pasted image 20260525193416.png",
@@ -191,7 +202,6 @@
     "/Roadmap anotações/Frontend/2 - CSS.md",
     "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
     "/Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
-    "Idéias de Projetos",
-    "/Idéias de Projetos"
+    "Idéias de Projetos"
   ]
 }
