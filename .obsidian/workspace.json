@@ -11,10 +11,14 @@
             "id": "65358e69dedc0008",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Video ideias/Em busca de uma vida explicável/First one.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "First one"
             }
           }
         ]
@@ -158,12 +162,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "8b158215c2576c19",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -180,6 +195,12 @@
   },
   "active": "65358e69dedc0008",
   "lastOpenFiles": [
+    "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
+    "Video ideias/Em busca de uma vida explicável/First one.md",
+    "Video ideias/Untitled.md",
+    "Video ideias/Em busca de uma vida explicável/First",
+    "Video ideias/Em busca de uma vida explicável",
+    "Video ideias",
     "Roadmap anotações/Frontend/3 - JavaScript.md",
     "Roadmap anotações/Backend/1.a - Java.md",
     "English vocabulary/Words that i learned while studying.md",
@@ -195,7 +216,6 @@
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525183002.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525182955.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525182840.png",
-    "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
     "Idéias de Projetos",
     "Roadmap anotações/Frontend/1 - HTML.md",
     "Roadmap anotações/Frontend/imgs",
@@ -218,10 +238,8 @@
     "Roadmap anotações/Backend/2 - PostgreSQL.md",
     "Roadmap anotações/Backend/5 - Redis.md",
     "Roadmap anotações/Frontend/8 - React.md",
-    "Roadmap anotações/Frontend/7 - Tailwind CSS.md",
     "Roadmap anotações/Devops",
     "Roadmap anotações/Backend",
-    "Roadmap anotações/Frontend",
-    "Roadmap anotações"
+    "Roadmap anotações/Frontend"
   ]
 }
