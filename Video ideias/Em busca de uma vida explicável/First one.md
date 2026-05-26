@@ -9,4 +9,7 @@ But to be real with you guys, my life isn't exactly where I pictured it would be
 
 To be completely honest, I just hit a point where I couldn't take it anymore. I looked at myself in the mirror and realized that the pain of staying the same was bigger than the pain of changing. I am tired of being stuck. I'm tired of having the same bad days, the same bad habits, and feeling like I’m wasting my potential. That’s why this channel exists. It's a tool to force myself to grow, because staying here is no longer an option.
 
+So, what are my goals with this metamorphosis? I divided them into three main pillars: First, **my health**: I want to rebuild my body, get back in shape, and build discipline through running and the gym. Second, **my career**: My goal is to master software development, finish my college projects, and land a great internship to finally enter the tech market. And third, **my mindset**: I want to become someone who actually executes plans instead of just dreaming about them. I want to build a life that makes sense, a life that I can explain and be proud of.
+
+
 In the next video, I'm going to show you exactly how my first week went trying to fix my sleep and running every morning. It's probably going to be brutal, but that's part of the process. If you also feel stuck in life or want to transform your own routine, subscribe to the channel, and let's go through this metamorphosis together. Thanks for watching, and see you in the next one.
