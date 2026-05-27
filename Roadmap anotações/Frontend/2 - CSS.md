@@ -346,4 +346,13 @@ In CSS, not all properties are inherited by default. For example, properties lik
 
 ## Styling Lists and Links
 
-e
+### How Do You Space List items Using margin or line-height
+
+Margins and line-height are essential for spacing list items to enhance readability and visual appeal.
+
+Margins ca be used to create space between list items bu applying margin properties to the `li` elements. This method allows you to control the spacing outside each list item, effectively increasing or decreasing the gap between them. 
+
+![[Pasted image 20260527120638.png]]
+![[Pasted image 20260527120709.png]]
+
+The `line-height` property adjusts the vertical spacing between lines of text within a single list item. 
