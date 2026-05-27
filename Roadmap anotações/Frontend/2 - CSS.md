@@ -344,4 +344,145 @@ In CSS, not all properties are inherited by default. For example, properties lik
 
 
 
-### 
+## Styling Lists and Links
+
+### How Do You Space List items Using margin or line-height
+
+Margins and line-height are essential for spacing list items to enhance readability and visual appeal.
+
+Margins ca be used to create space between list items bu applying margin properties to the `li` elements. This method allows you to control the spacing outside each list item, effectively increasing or decreasing the gap between them. 
+
+![[Pasted image 20260527120638.png]]
+![[Pasted image 20260527120709.png]]
+
+The `line-height` property adjusts the vertical spacing between lines of text within a single list item. 
+
+While it primarily affects the spacing between lines of text within each item, it can also indirectly influence the overall spacing between list items if the items contain only a single line of text.
+
+If list items have multiple lines of text, the `line-height` will affect the spacing between those lines, but it does not directly adjust the spacing between separate list items themselves.
+
+To control the spacing between individual list items, you would use `margin` or `padding` properties instead.
+
+![[Pasted image 20260527121605.png]]
+
+
+
+---
+
+
+
+### How Do the Different list-style Properties Work?
+
+In CSS, the `list-style` property is used to control the appearance of lists on a webpage.
+
+The `list-style` property is actually a shorthand for three other properties:
+
+- `list-style-type`
+- `list-style-position`
+- `list-style-image`
+
+The `list-style-type` property allows you to define the type of bullet point or number used in a list.
+
+For unordered lists, you can choose from several bullet styles, such as discs, circles, or squares.
+
+For ordered lists, you can use different numbering systems, like decimal, Roman numeral, or even alphabetical characters. 
+
+`list-style-type`:
+![[Pasted image 20260527122312.png]]
+
+`list-style-position`:
+![[Pasted image 20260527122341.png]]
+
+`list-style-image`:
+![[Pasted image 20260527122405.png]]
+
+You can combine the three properties into a single `list-style` shorthand property.
+
+The order of the values in the shorthand doesn't matter, but all three can be specified together. 
+
+%% <ul style="list-style: square inside url('https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg');">
+
+<li>Item 1</li>
+
+<li>Item 2</li>
+
+<li>Item 3</li>
+
+</ul> %%
+
+
+
+---
+
+
+
+### Why Are Default Link Styles Important for Usability on the web?
+
+Default link styles play a crucial role in enhancing usability and accessibility on the web. 
+
+These styles, typically blue for unvisited links and purple for visited links, have become a standard that users have come to expect and rely on when navigating websites. 
+
+The primary purpose of default link styles is to provide clear visual cues that help users distinguish between interactive and non-interactive elements on a webpage.
+
+This distinction is fundamental to creating an intuitive and user-friendly browsing experience. 
+
+![[Pasted image 20260527123610.png]]
+
+These styles serve several important functions.
+
+Firstly, the blue color for unvisited links stands out against most background colors and text, making links easily identifiable. This contrast is crucial for users to quickly scan a page and find navigational elements or important information.
+
+The underline further emphasizes that the text is clickable, providing an additional visual cue. This is particularly helpful for users who may be colorblind or have difficulty distinguishing colors. 
+
+The change in color for visited links (typically to purple) helps users keep track of where they've been. This feature is invaluable for navigation large websites or conducting research, as it prevents users from inadvertently revisiting the same pages. 
+
+It's also important to consider the different states of links. In addition to the default and visited states, links typically have hover and active states:
+![[Pasted image 20260527124536.png]]
+
+
+
+---
+
+
+
+### How Do You Styles the Different Link States?
+
+There are different states of a link, including `link, visited, hover, focus` and `active`.
+These states are important for helping users recognize links and providing clear feedback after interactions, which improves both usability and accessibility.
+
+Styling these different link states is crucial for usability and accessibility, as it provides visual cues about the current state of the link. This helps users understand which links they have visited, which link they are interacting with, and what will happen when they click.
+
+Additionally, clear link states enhance the overall user experience by providing immediate feedback on user interactions, reducing confusion and improving the site's navigability.
+
+These states can be styled using something called `pseudo-classes` in CSS.
+
+A pseudo-class is a keyword added to a selector that specifies a special state of the selected element.
+
+For example, `:hover` can change a button's color when the user's pointer hovers over it, while `:visited` can change the color of a link that has already been visited.
+
+The syntax of a `pseudo-class` looks something like this where `A` is the selector and `:B` is the `pseudo-class`:
+
+![[Pasted image 20260527125422.png]]
+
+The `:link` pseudo-class styles unvisited links, indicating that they are clickable.
+![[Pasted image 20260527125549.png]]
+
+`:visited` links that gabe already been visited or clicked.
+![[Pasted image 20260527125640.png]]
+
+`:hover` changes the link's style when the user hovers over it.
+![[Pasted image 20260527125719.png]]
+
+`:focus` adds styles around the link when it is focused, such as when navigating with a keyboard, or enhancing accessibility.
+
+Here an example using the `outline` property to apply a solid orange outline.
+![[Pasted image 20260527125850.png]]
+
+`:active` changes the link styles while the link is being clicked.
+![[Pasted image 20260527125942.png]]
+
+
+
+---
+
+
