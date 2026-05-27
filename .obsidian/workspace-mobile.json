@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Video ideias/Em busca de uma vida explicável/First one.md",
-                "mode": "preview",
+                "file": "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "First one"
+              "title": "Site para criação de currículos grátis e com pouco anúncio"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "English vocabulary/Words that i learned while studying.md",
+            "file": "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,15 +171,17 @@
   },
   "active": "d6e50e92b002042e",
   "lastOpenFiles": [
-    "2026-05-26.md",
+    "Roadmap anotações/Frontend/3 - JavaScript.md",
+    "Roadmap anotações/Backend/1.a - Java.md",
     "English vocabulary/Words that i learned while studying.md",
+    "Roadmap anotações/Frontend/2 - CSS.md",
     "Video ideias/Em busca de uma vida explicável/First one.md",
+    "2026-05-26.md",
     "/Video ideias/Em busca de uma vida explicável/First one.md",
     "Video ideias/Em busca de uma vida explicável",
     "Video ideias",
     "/Video ideias/Em busca de uma vida explicável",
     "/Video ideias",
-    "Roadmap anotações/Frontend/2 - CSS.md",
     "Roadmap anotações/Frontend/1 - HTML.md",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525193416.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260525193156.png",
