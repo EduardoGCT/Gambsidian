@@ -687,6 +687,17 @@ height: 40px;
 </html>
 ```
 
+This CSS creates a linear gradient that transitions from `red` on the `left` to `yellow` on the `right`. The gradient is applied to an element with a height of `40%` of the viewport height. You'll learn more about `vh` units in a future lesson.
+
+
+Another type of gradient would be the `radial` gradient.
+
+A radial gradient transitions colors radiating from an origin (usually the center) outward in a circular or elliptical shape.
+
+```css 
+background: radial-gradient(shape size at position, color-stop1, color-stop2, ...)
+```
+
 
 
 ---
