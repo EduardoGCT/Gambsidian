@@ -496,6 +496,34 @@ When working with background images in CSS, you have several properties at your 
 
 The main properties we'll focus on are `background-size`, `background-repeat`, `background-position`, and `background-attachment`. 
 
+```
+<style>
+	body{
+		background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+	}
+</style>
+```
+
+If you want to set the size for the background image, you can use the `background-size` property.
+
+You can use `contain` to scale the image as large as possible without cropping os stretching.
+
+```
+<style>
+
+body {
+
+background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+
+background-size: contain;
+
+min-height: 100px;
+
+}
+
+</style>
+```
+
 
 
 ---
