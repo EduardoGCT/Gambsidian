@@ -698,6 +698,26 @@ A radial gradient transitions colors radiating from an origin (usually the cente
 background: radial-gradient(shape size at position, color-stop1, color-stop2, ...)
 ```
 
+On the syntax, the `shape` specifies the shape of gradient which could be `circle` or `ellipse`.
+
+The `size` determines the size of the gradient's ending shape which could be `closest-side`, `closest-corner`, `farthest-side` or `farthest-corner`.
+
+`position` determines the position of the gradient's center which could be specified using keywords (such as `center`, `top left`, `bottom right`) or precise values (such as `50% 50%`, `10px 20px`).
+
+Lastly, color stops are a list of colors that the gradient transitions through. Each color stop can optionally include a position value (percentage or length) indicating where the color should be placed.
+
+![[Pasted image 20260603151342.png]]
+
+The `closest-side` keyword makes the gradient's ending shape fit the closest side of the element. The gradient is applied to an element with a height of `60%` of the viewport height.
+
+
+
+---
+
+
+
+### What Are Some Accessibility Considerations for Backgrounds?
+
 
 
 ---
