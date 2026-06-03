@@ -492,6 +492,10 @@ Here an example using the `outline` property to apply a solid orange outline.
 
 ### How Do Background Image Size, Repeat, Position and Attachment Work?
 
+When working with background images in CSS, you have several properties at your disposal to control how these images are displayed. 
+
+The main properties we'll focus on are `background-size`, `background-repeat`, `background-position`, and `background-attachment`. 
+
 
 
 ---
