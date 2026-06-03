@@ -487,3 +487,13 @@ Here an example using the `outline` property to apply a solid orange outline.
 ---
 
 
+
+## Working with Backgrounds and Borders
+
+### How Do Background Image Size, Repeat, Position and Attachment Work?
+
+
+
+---
+
+
