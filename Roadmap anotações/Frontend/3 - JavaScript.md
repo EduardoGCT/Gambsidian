@@ -16,7 +16,7 @@ The flexibility of dynamic typing makes JavaScript more forgiving and easy to wo
 
 In conclusion, JavaScript's dynamic typing allows variables to change types freely, which offers flexibility but can lead to unexpected errors during execution.
 
-Statically typed languages like [[1.a - Java]] require you to specify variable types upfront, which helps catch errors before the program runs but offers less flexibility.
+Statically typed languages like [[1.a - C Sharp]] require you to specify variable types upfront, which helps catch errors before the program runs but offers less flexibility.
 
 ---
 
