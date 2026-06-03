@@ -506,7 +506,7 @@ The main properties we'll focus on are `background-size`, `background-repeat`, `
 
 If you want to set the size for the background image, you can use the `background-size` property.
 
-You can use `contain` to scale the image as large as possible without cropping os stretching.
+You can use `contain` to scale the image as large as possible without cropping or stretching.
 
 ```
 <style>
@@ -525,6 +525,167 @@ min-height: 100px;
 ```
 
 If we change the `background-size` property to use the `cover` value, then the background image will scale to cover the entire `body` element while maintaining its aspect ratio.
+
+```
+<style>
+
+body {
+
+background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+
+background-size: cover;
+
+min-height: 100px;
+
+}
+
+</style>
+```
+
+In the previous examples, you probably noticed that the background image would continuously repeat.
+
+By default, background images repeat both horizontally and vertically to fill the entire element. However, you can control this behavior.
+
+You can use the `background-repeat` property with the value set to `no-repeat`.
+
+```
+<style>
+
+body {
+
+background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+
+background-size: contain;
+
+background-repeat: no-repeat;
+
+min-height: 100px;
+
+}
+
+</style>
+```
+
+with the `background-size` set to ` contain` and the `background-repeat` set to `no-repeat`, the image will no longer repeat on the screen.
+
+If you wanted to repeat the background image horizontally, you can use the `repeat-x` value for the `background-repeat` property.
+
+```
+<style>
+
+body {
+
+background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+
+background-size: contain;
+
+background-repeat: repeat-x;
+
+min-height: 100px;
+
+}
+
+</style>
+```
+
+And to set the background image vertically, you can use the `repeat-y`.
+
+The `background-position` property allows you to set where in the element the background image appears. You can use keywords like `top, bottom, left, right and center`, or specific pixel or percentage values.
+
+```
+<style>
+
+body {
+
+background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+
+background-size: contain;
+
+background-repeat: no-repeat;
+
+background-position: center top;
+
+min-height: 100px;
+
+}
+
+</style>
+```
+
+Lastly, `background-attachment` determines whether the background image scrolls with the content or remains fixed when the page is scrolled.
+
+The main values are `scroll`(default), where the background image scrolls with the content, and `fixed`, where the background image stays in the same position on the screen,
+
+```
+<style>
+
+body {
+
+background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+
+background-position: center top;
+
+background-attachment: fixed;
+
+}
+
+</style>
+```
+
+If you wanted to combine a few of the properties into one line, you can do that by using the shorthand ` background` property.
+
+```
+<style>
+
+body {
+
+background: center top fixed
+
+url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+
+}
+
+</style>
+```
+
+
+
+---
+
+
+
+### What is a Background Gradient, and How Does It Work?
+
+A background gradient in CSS is a smooth transition between two or more colors that can be applied to the background of an element. Gradients allow you to create visually appealing backgrounds without needing images. 
+
+There are two main types of gradients: linear gradients and radial gradients.
+
+A linear gradient transitions colors along a straight line. You can define the direction and the colors involved.
+
+```css
+background: linear-gradient(direction, color-stop1, color-stop2, ...);
+```
+
+The direction specifies the direction of the gradient. It can be an angle (such as `45deg`), a keyword (such as `to right, to bottom`), or a side/corner.
+
+`color-stop` specifies the colors and positions where the gradient transitions occur.
+
+```html
+<html>
+<style>
+.linear-gradient{
+
+background: linear-gradient(to right, red, yellow);
+
+height: 40px;
+
+}
+</style>
+<body>
+<div class="linear-gradient"></div>
+</body>
+</html>
+```
 
 
 
