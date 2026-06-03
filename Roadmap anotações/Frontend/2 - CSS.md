@@ -524,6 +524,8 @@ min-height: 100px;
 </style>
 ```
 
+If we change the `background-size` property to use the `cover` value, then the background image will scale to cover the entire `body` element while maintaining its aspect ratio.
+
 
 
 ---
