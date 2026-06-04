@@ -482,7 +482,7 @@ Here an example using the `outline` property to apply a solid orange outline.
 `:active` changes the link styles while the link is being clicked.
 ![[Pasted image 20260527125942.png]]
 
-
+.
 
 ---
 
