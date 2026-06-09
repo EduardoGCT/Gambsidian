@@ -846,8 +846,27 @@ Balance is how the visual weight is distributed within a composition . Designers
 
 #### Hierarchy:
 
-Hierarchy establishes the order of importance of the elements in a design. It's about making sure the most important information is noticed  first. You can implement a visual hierarchy with size, color, contras1t, alignment, white space, and ever typography.
+Hierarchy establishes the order of importance of the elements in a design. It's about making sure the most important information is noticed  first. You can implement a visual hierarchy with size, color, contrast, alignment, white space, and ever typography.
 
 ---
 
+
+
+#### Contrast:
+
+Contrast is helpful for guiding user attention to what you want to emphasize. You can do this through variations in color, size, shape, texture, or any other visual characteristic. Strong contrast is also helpful for improving readability.
+
+--- 
+
+
+
+#### White space:
+
+White Space, also known as "negative space", is the empty space in a design. It's the area surrounding the elements. You might be surprised to know that white space is not necessarily white. Actually, it can be space in any color or texture. Its purpose is to improve the readability and enhance the visual hierarchy of a design.
+
+---
+
+
+
+### How Do You Create Good Background and Foreground Contrast in Your Designs?
 
