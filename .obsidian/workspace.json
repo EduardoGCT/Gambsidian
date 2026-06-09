@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "2 - CSS"
             }
+          },
+          {
+            "id": "c8c69e52ae688e2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "English vocabulary/Words that i learned while studying.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Words that i learned while studying"
+            }
           }
         ]
       }
@@ -195,12 +209,13 @@
   },
   "active": "6299daf238dd7e89",
   "lastOpenFiles": [
+    "English vocabulary/Words that i learned while studying.md",
+    "Roadmap anotações/Frontend/2 - CSS.md",
     "Roadmap anotações/Backend/1.a - C Sharp.md",
     "Roadmap anotações/Backend/Pseudo code at algorithms.md",
     "English vocabulary/Untitled.md",
     "Algorithms/Exercises.md",
     "Algorithms",
-    "Roadmap anotações/Frontend/2 - CSS.md",
     "Roadmap anotações/Frontend/3 - JavaScript.md",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260603151342.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260527125942.png",
@@ -233,7 +248,6 @@
     "Video ideias/Em busca de uma vida explicável/First",
     "Video ideias/Em busca de uma vida explicável",
     "Video ideias",
-    "English vocabulary/Words that i learned while studying.md",
     "Java.md",
     "Idéias de Projetos",
     "Roadmap anotações/Frontend/imgs",

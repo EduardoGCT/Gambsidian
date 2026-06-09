@@ -816,7 +816,37 @@ border-radius: 10px;
 
 ### What Are Common Design Terms to Help You Communicate with Designers?
 
+#### Layout:
 
+Layout is how the visual elements are arranged on a page or screen to communicate a message. These elements may include text, images, and white space. The layout is like the blueprint of a design. Designers must consider the placement, size, and hierarchy of each element.
+
+
+
+---
+
+
+
+#### Composition:
+
+Composition is the art of arranging elements to create a harmonious design. I determines how elements like images, text, and shapes relate to each other and contribute to the design in an artistic way. While layout mostly focuses on the placement of the elements, composition also considers the artistic impact that this placement will have in the overall design.
+
+
+
+---
+
+
+
+#### Balance:
+
+Balance is how the visual weight is distributed within a composition . Designers aim to create an equilibrium through  symmetrical or asymmetrical arrangements. A balanced design feels harmonious.
+
+---
+
+
+
+#### Hierarchy:
+
+Hierarchy establishes the order of importance of the elements in a design. It's about making sure the most important information is noticed  first. You can implement a visual hierarchy with size, color, contras1t, alignment, white space, and ever typography.
 
 ---
 
