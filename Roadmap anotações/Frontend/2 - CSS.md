@@ -810,9 +810,13 @@ border-radius: 10px;
 
 
 
-## Design
+# Design
 
-### User Interface Design
+## User Interface Design
+
+### What Are Common Design Terms to Help You Communicate with Designers?
+
+
 
 ---
 
