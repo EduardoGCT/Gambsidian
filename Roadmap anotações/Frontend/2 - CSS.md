@@ -1335,13 +1335,236 @@ Another thing to consider is where the user can click on the card. Some card des
 
 ### What Are Best Practices for Designing Infinite Scrolls?
 
+ Infinite scrolling is a design pattern that loads more content as the user scrolls 
+ down the page. Oftentimes, this is used on social media sites like Twitter. For 
+ example, if you are logged in and want to see more tweets, you can scroll down 
+ and more tweets will load.
 
+```js
+window.addEventListener('scroll', () => {
+
+if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+
+loadMorePosts();
+
+}
+
+});
+
+  
+
+function loadMorePosts() {
+
+const container = document.querySelector('.infinite-scroll');
+
+for (let i = 0; i < 3; i++) {
+
+const post = document.createElement('div');
+
+post.className = 'post';
+
+post.textContent = `Post ${container.children.length + 1}`;
+
+container.appendChild(post);
+
+}
+
+}
+```
+
+Infinite scrolling is also used as a substitute for pagination. Pagination is a design pattern that breaks up content into pages. This is often used when there is a lot of content to display. An example of pagination is when you search for something on Google and you see the search results on multiple pages. With pagination, you have to click on a button to go to the next page. With infinite scrolling, you just keep scrolling down and more content will load.
+
+```js
+let currentPage = 1;
+
+const postsPerPage = 3;
+
+const totalPosts = 50;
+
+const totalPages = Math.ceil(totalPosts / postsPerPage);
+
+const container = document.querySelector('.pagination');
+
+const prevButton = document.querySelector('.prev');
+
+const nextButton = document.querySelector('.next');
+
+  
+
+function renderPosts() {
+
+container.innerHTML = '';
+
+const start = (currentPage - 1) * postsPerPage;
+
+const end = start + postsPerPage;
+
+for (let i = start; i < end && i < totalPosts; i++) {
+
+const post = document.createElement('div');
+
+post.className = 'post';
+
+post.textContent = `Post ${i + 1}`;
+
+container.appendChild(post);
+
+}
+
+prevButton.disabled = currentPage === 1;
+
+nextButton.disabled = currentPage === totalPages;
+
+}
+
+  
+
+prevButton.addEventListener('click', () => {
+
+if (currentPage > 1) {
+
+currentPage--;
+
+renderPosts();
+
+}
+
+});
+
+  
+
+nextButton.addEventListener('click', () => {
+
+if (currentPage < totalPages) {
+
+currentPage++;
+
+renderPosts();
+
+}
+
+});
+
+  
+
+renderPosts();
+```
+
+As you incorporate infinite scrolling into your design, there are a few best practices to keep in mind. The first consideration is to provide a "Load More" button that loads the next set of results when the user clicks on it. This is a good way to give the user control over when they want to see more content.
+
+Another consideration would be to add a "Back" button. This gives users the ability to go back to the previous page without having to scroll all the way back up. This creates a better user experience and gives them more control over their browsing experience.
+
+Sometimes you will see designs with a "Back to the top" button which leads users back to the top of the page of results. Another consideration is to provide a loading indicator. Users should have a clear indication that more content is being loaded; otherwise, they might think that the page is broken.
+
+One of the last considerations would be to keep the footer accessible to the user. If the footer contains important information, then it should be accessible to the user at all times.
+
+In conclusion, infinite scrolling is a great way to display content on your website. However, you should keep in mind the best practices when designing your infinite scroll so that you can provide the best user experience possible.
 
 ---
 
 
 
 ### What Are Best Practices for Designing Modal Dialogs?
+
+What is a modal? It's the type of pop-up that a website might show you on top of their content. HTML has a `dialog` element that you can use to create modals.
+
+The content behind a modal is usually dimmed. This helps the user visually focus on the area you want them to interact with – in this case, the modal.
+
+It's always a good idea to allow the user to click outside of the modal to close it.
+
+![[Pasted image 20260616145304.png]]
+
+```js
+const dialog = document.querySelector('dialog');
+
+const closeButton = dialog.querySelector('button:last-of-type');
+
+const openModalButton = document.getElementById('open-modal');
+
+  
+
+closeButton.addEventListener('click', () => {
+
+dialog.close();
+
+});
+
+  
+
+openModalButton.addEventListener('click', () => {
+
+dialog.showModal();
+
+});
+
+  
+
+// Close the modal when clicking outside of it
+
+dialog.addEventListener('click', (event) => {
+
+const rect = dialog.getBoundingClientRect();
+
+const isInDialog = (
+
+event.clientX >= rect.left &&
+
+event.clientX <= rect.right &&
+
+event.clientY >= rect.top &&
+
+event.clientY <= rect.bottom
+
+);
+
+if (!isInDialog) {
+
+dialog.close();
+
+}
+
+});
+```
+
+You'll often see very prominent buttons on modals. These are called CTAs, or call-to-action. You want these to be easily identifiable since the purpose of interrupting the user's flow with a modal is to prompt them to take a specific action.
+
+Modals should also have a close button. While you may really want the user to click on your CTAs, it's important to give them an option to back out of the modal and resume whatever they were previously doing.
+
+![[Pasted image 20260616145429.png]]
+
+```css
+.cta {
+
+background-color: #007BFF;
+
+color: white;
+
+border: none;
+
+padding: 10px 20px;
+
+border-radius: 4px;
+
+cursor: pointer;
+
+}
+
+  
+
+.close {
+
+background-color: transparent;
+
+color: #007BFF;
+
+border: none;
+
+padding: 10px 20px;
+
+cursor: pointer;
+
+}
+```
 
 
 
@@ -1350,6 +1573,23 @@ Another thing to consider is where the user can click on the card. Some card des
 
 
 ### What Are Best Practices for Progress Indication on Forms, Registration, and Setup?
+
+Progress indication is a way to show users how far they are in a process. It can be used in forms, registration, and setup processes. The goal is to help users understand where they are in the process and how much more they need to do.
+
+For example, you can use a progress indication bar to show users what is left to do when filling forms. You don't want to create a situation where the user needs to fill out a lengthy form and they don't know how many more steps they need to complete. Transparency is key so the user knows whether they have enough time to sit down and complete the form or if they need to come back later.
+
+![[Pasted image 20260616145755.png]]
+
+
+When designing a progress indication section, there are a few best practices to keep in mind. The first consideration is to keep it simple. You don't want to overwhelm the user with too much information where they get frustrated and leave the site.
+
+The second consideration is to make it possible to go back to previous steps. This is important because users may want to go back and check their previous answers or make changes.
+
+Another consideration is to make the progress indication section easy to find. If the user can't find it, they won't know how far they are in the process.
+
+The last consideration is to have clear section titles, percentages, or steps. If you just have a progress bar with no context, the user won't know what it means.
+
+![[Pasted image 20260616145920.png]]
 
 
 
