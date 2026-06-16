@@ -868,6 +868,131 @@ White Space, also known as "negative space", is the empty space in a design. It'
 
 
 
-### How Do You Create Good Background and Foreground Contrast in Your Designs?
+### What Is the Importance of Good Visual Hierarchy in Design?
+
+Visual hierarchy refers to the way you layout and display the content of your page to guide the viewer's attention.
+
+A strong hierarchy can provide a clear path for the eye to follow, ensuring that the information you convey is consumed in the order that you intended.
+
+Let's consider a basic page layout in which the HTML for the page is semantically correct, but the styling applied does not create a strong visual hierarchy.
+
+![[Pasted image 20260616134253.png]]
+
+If the font size isn't distinct, there is no visible indication of the document flow, although things are separated by headings.
+
+To create a visual hierarchy, you should apply different font sizes to the heading tiers. You could also use something like a "callout box" to highlight a specific section.
+
+![[Pasted image 20260616134402.png]]
+
+Visual hierarchy can also help increase your user conversion. For example, you can take advantage of the callout box to further draw attention to a Call to Action (CTA) button.
+
+![[Pasted image 20260616134438.png]]
+
+
+
+---
+
+
+
+### How Does Scale work in Design?
+
+The "scale" of something refers to its size.
+
+When you're looking at scaling in your web design, you're looking at the size relationships between different elements, and how these elements might adapt to different screen sizes.
+
+Using the correct scale for your elements plays an important role in visual hierarchy. Larger elements will draw more attention, which can guide your users through the content in the way that you want.
+
+For example, the visual separation between a heading and a paragraph draws your reader’s attention, but the scale should be appropriate to get an eye-catching text that pulls your reader to that section.
+
+![[Pasted image 20260616134714.png]]
+
+
+
+---
+
+
+
+### How Does Alignment Work in Design?
+
+When you are designing web pages, it is important to create cohesive and visually appealing designs. One way to achieve this is through the use of alignment.
+
+Alignment is the process of arranging text and images in a way that creates a visual connection between elements.
+
+It helps to create a sense of order and organization on the page, making it easier for users to navigate and understand the content.
+
+There are several types of alignment you can use, but the basic ones are:
+
+- left alignment
+- center alignment
+- right alignment
+- justified alignment
+- vertical alignment
+
+Left, right, and center alignments are all subtypes of horizontal alignment, while vertical alignment is used to align elements along a vertical axis.
+
+Let's take a closer look at each type of alignment and how you can use them in your designs.
+
+Left alignment is commonly used with text where each element is aligned to the left margin. Aligning all of the headings and paragraphs on a web page to the left margin makes it easier for the user to read and follow the content.
+
+![[Pasted image 20260616134945.png]]
+
+The opposite of left alignment is right alignment, where each element is aligned to the right margin. This is often used on websites to display additional content like promotional banners or advertisements.
+
+![[Pasted image 20260616135002.png]]
+
+
+Vertical alignment can be used, for example, for a contact form on a website. Aligning all of the form inputs like the name, email, and message fields along a vertical axis makes it easier for the user to fill out the form.
+
+![[Pasted image 20260616135040.png]]
+
+
+
+---
+
+
+
+### What Is the Importance of Whitespace in Design?
+
+White space refers to any type of space around elements like images, text, and buttons. White space is important in design because it helps to create a balance between the elements on the page.
+
+Let's take a look at some examples of how white space can be used effectively in design.
+
+For example, let's consider a call-to-action (CTA) button. CTAs are used to encourage users to take a specific action like signing up for a newsletter or making a purchase.
+
+On the freeCodeCamp homepage, the CTA button is visually separated from other elements. The image below shows this button, with a certain amount of space around it.
+
+![Call-to-action button on the freeCodeCamp homepage with yellow background and black text reading: Get started (it's free). The button is centered on its own line with ample white space above and below.](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-is-the-importance-of-whitespace-in-design-1.png)
+
+By using white space effectively, we can help to make a CTA button more prominent and encourage users to click on it.
+
+Now let's take a closer look at the different types of white space.
+
+This first example uses both macro and active white space. Macro white space is the space between larger elements like images, text blocks, and buttons.
+
+Active white space is the space that is intentionally created to help guide the user's eye and draw attention to certain elements on the page.
+
+In contrast to active white space, there is also passive white space. Passive white space is the space that is left over after all the elements on a page have been placed.
+
+Another type of whitespace would be micro white space. This is the space between individual characters in a line of text.
+
+The image below shows the Frequently Asked Questions section on the freeCodeCamp homepage, where this spacing allows you to read each question and answer easily.
+
+![The Frequently Asked Questions section on the freeCodeCamp homepage, with text spaced sufficiently between each letter.](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-is-the-importance-of-whitespace-in-design-2.png)
+
+Micro white space is important because it helps to improve readability and legibility, making it easier for users to scan and understand the content.
+
+When designing your web pages, you always want to be mindful of the law of proximity. This law states that elements that are close together are perceived as being related, while elements that are far apart are perceived as being unrelated.
+
+You can use white space to help group related elements together and help navigate users through the content on your page.
+
+---
+
+
+
+### What Are Best Practices for Working with Images in Your Designs?
+
+
+
+---
 
 
