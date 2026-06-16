@@ -1271,6 +1271,14 @@ Understanding the difference is essential for collecting the most accurate data 
 
 ### What Are Best Practices for Designing a Dark Mode Feature?
 
+The first consideration is the avoidance of saturated colors in dark mode. Saturated colors are colors that are bright and intense. For example, a bright magenta button against a dark gray background can be too intense and cause eye strain. Instead, you should use desaturated colors in dark mode. Desaturated colors are colors that are less intense, have a lower saturation level, and more comfortable to look at in dark mode. To see the previews, you will need to enable the interactive editor.
+
+![[Pasted image 20260616142814.png]]
+
+Another consideration with dark mode is the use of pure black backgrounds with white text. While this high contrast can be effective, it can also be too harsh on the eyes. Instead, consider using a dark gray background with light gray text for a softer contrast. Text will be easier on the eyes and more comfortable to read in dark mode.
+
+![[Pasted image 20260616142932.png]]
+
 
 
 ---
