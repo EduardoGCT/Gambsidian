@@ -1599,6 +1599,8 @@ The last consideration is to have clear section titles, percentages, or steps. I
 
 ### What Are Best Practices for Designing Shopping Carts?
 
+The first design consideration is making sure the shopping cart is visible to users at all times. Most shopping cart designs will have the cart displayed in the upper right hand corner of the page. Users should see the number of items in their cart displayed next to the cart icon, and be able to click on the cart to see more details about the items they are purchasing.
+
 
 
 ---
