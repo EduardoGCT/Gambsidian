@@ -991,6 +991,350 @@ You can use white space to help group related elements together and help navigat
 
 ### What Are Best Practices for Working with Images in Your Designs?
 
+The first thing to consider is creating responsive images. Responsive images are images that scale to fit the size of the screen they are being viewed on. This is important because it ensures that your images look good on all devices, from desktops to mobile phones.
+
+`
+<html>
+<style>
+
+body {
+
+font-family: sans-serif;
+
+padding: 20px;
+
+background-color: #fefefe;
+
+color: #333;
+
+text-align: center;
+
+}
+
+  
+
+img {
+
+max-width: 100%;
+
+height: auto;
+
+border-radius: 8px;
+
+}
+
+  
+
+p {
+
+font-size: 16px;
+
+max-width: 600px;
+
+margin: 20px auto;
+
+line-height: 1.6;
+
+}
+
+</style>
+
+  
+
+<h1>Responsive Cat Image</h1>
+
+  
+
+<img
+
+src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+
+alt="Two cats peacefully sleeping together."
+
+/>
+
+  
+
+<p>
+
+This image automatically scales based on the screen size. Whether you're viewing on a desktop or a mobile phone,
+
+it adjusts its size without losing proportions, making the design clean and user-friendly on all devices.
+
+</p>
+</html>`
+Another thing to consider is the resolution for images. Higher quality images with better resolution have more pixels per inch. Pixels are small squares that make up an image.
+
+Pixels per inch, or PPI, is the number of pixels in one inch of an image. The higher the PPI, the better the image quality.
+
+You want to make sure that your images are high quality and look good on all devices. This means that you should use high resolution images that are optimized for the web.
+
+Another thing to consider is the size of your images and how they fit within the spaces in the layout. You want to make sure that your images are the right size and are not too large or too small.
+
+Using large images that are meant to fit in smaller spaces in the design can slow down your website and make it harder for users to load your site. You want to make sure that your images are the right size and are optimized for the web.
+
+When it comes to image placement, you want to think about balance, hierarchy, and alignment to help ensure your images are optimized for the web.
+
+Balance is the distribution of visual weight in a design. You want to make sure there is a good balance between text and images on the site so it creates a harmonious design
+
+`
+<html>
+<style>
+
+body {
+
+font-family: sans-serif;
+
+margin: 0;
+
+padding: 40px 20px;
+
+background-color: #f9f9f9;
+
+color: #333;
+
+}
+
+  
+
+.container {
+
+display: flex;
+
+flex-wrap: wrap;
+
+align-items: center;
+
+justify-content: space-between;
+
+gap: 30px;
+
+max-width: 1000px;
+
+margin: 0 auto;
+
+}
+
+  
+
+.text {
+
+flex: 1 1 400px;
+
+}
+
+  
+
+.text h2 {
+
+font-size: 28px;
+
+margin-bottom: 10px;
+
+}
+
+  
+
+.text p {
+
+font-size: 16px;
+
+line-height: 1.6;
+
+}
+
+  
+
+.image {
+
+flex: 1 1 400px;
+
+}
+
+  
+
+.image img {
+
+width: 100%;
+
+height: auto;
+
+border-radius: 8px;
+
+}
+
+</style>
+
+  
+
+<div class="container">
+
+<div class="text">
+
+<h2>Balanced Layout</h2>
+
+<p>
+
+Balance is essential in web design. By evenly distributing visual weight—such as pairing this block of text
+
+with a complementary image—you create a layout that feels calm, structured, and easy to navigate.
+
+</p>
+
+</div>
+
+  
+
+<div class="image">
+
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two cats peacefully sleeping together.">
+
+</div>
+
+</div>
+</html>
+`
+
+
+
+---
+
+
+
+### What is Progressive Enhancement?
+
+Progressive enhancement is a design approach that ensures all users, regardless of browser or device, can access the essential content and functionality of an application.
+
+It focuses on delivering a core experience that works for everyone, while offering extra features and improvements to users with more advanced browsers or better internet connections.
+
+The progressive enhancement approach lives by these core principles:
+
+- All core content and basic functionality should be accessible on all browsers
+- All advanced layouts should be provided through external CSS stylesheets
+- All advanced functionality should be provided through external JavaScript files
+- A user's browser preferences should be respected
+
+Using a progressive enhancement approach makes your applications more accessible because all core content and functionality should not be blocked in unsupported environments.
+
+In terms of speed, a progressive enhancement approach can also help improve the performance of your applications.
+
+Those users that are working with slower internet connection speeds will still be able to access the content because the browser will download the necessary resources first.
+
+When it comes to SEO, progressive enhancement can also help improve the visibility of your applications.
+
+Search engines will be able to crawl the content of your applications because the core content is available in the initial HTML response.
+
+While some have criticized this approach deeming that it is not always realistic for applications that rely heavily on JavaScript for their functionality, it is still a good practice to follow when building applications.
+
+---
+
+
+
+## User-Centered Design
+
+
+### What Is User-Centered Design?
+
+User-centered design is a web development approach that prioritizes the end user, from their needs to their preferences and limitations. The goal of user-centered design is to craft a web page that is intuitive, efficient to use, and pleasing for your users to interact with.
+
+One of the first aspects of user-centered design is considering your target demographics. For example, if your intended user-base is younger, you might leverage more flashy eye-catching designs that grab their attention immediately. For an older audience, you might focus more on clear and streamlined designs without distractions.
+
+Another aspect to consider is the goal of your end users. For example, if you're building an e-commerce page for your products, you probably don't want to advertise someone else's products on your page. But if you're building a personal blog, you might include advertisement elements to generate revenue from passive readers.
+
+User behavior is an important factor as well. You'll want to leverage an analytics tool, like Google Analytics, to measure how your users engage with your pages. This can reveal areas where users might be getting "stuck" and leaving your page, or opportunities to improve the overall interaction flow.
+
+A key to user-centered design is to actually involve your users. Providing a feedback channel where they can share their experiences and pain points with your site allows you to capture vital information and iterate further to improve. Ultimately, user-centered design means you need to put the user at the forefront of your decision making, whether that's through research or direct feedback.
+
+---
+
+
+
+### What Are User Requirements, User Research, and Testing?
+
+User research is the systematic study of the people who use your product. The goal is to measure user needs, behaviors, and pain points.
+
+User research comes in many forms. Perhaps one of the most common is the Net Promoter Score, or NPS. The NPS measures how likely your users are to recommend your product to a friend. NPS is measured through a survey offered at key milestones along the user's journey, such as after 7 days, 30 days, and 90 days. NPS is measured on a scale of 0 to 10, with 9 and 10 indicating an active promoter of your site.
+
+Another research vector is an exit interview. This is a survey you show to your users when they cancel a subscription or delete an account. Data from this survey can give you insight into the factors causing user churn, so you can address them.
+
+User testing, on the other hand, refers to the practice of capturing data from users as they interface with your application. For example, a video game going through beta testing is a form of user testing. One you might run into as a web developer is A/B testing. A/B testing involves shipping a new feature to a randomly selected subset of your user base. You can then leverage analytics data to determine if the feature is beneficial.
+
+Finally, user requirements refer to the stories or rubric that your application needs to follow. This can inform the development process. User requirements might be defined by user research, or industry standards. They can even be defined by stakeholder input.
+
+These requirements may be functional, meaning they dictate how your application should work, or non-functional, meaning they define how your application should behave. User requirements are not static, either. The information from both user testing and user research can impact the requirements, and they will change as your user base changes.
+
+Understanding the difference is essential for collecting the most accurate data so you can deliver the best experience for your end users.
+
+---
+
+
+
+### What Are Best Practices for Designing a Dark Mode Feature?
+
+
+
+---
+
+
+
+### What Are Best Practices for Designing Breadcrumbs?
+
+
+
+---
+
+
+
+### What Are Best Practices for Designing Cards?
+
+
+
+---
+
+
+
+### What Are Best Practices for Designing Infinite Scrolls?
+
+
+
+---
+
+
+
+### What Are Best Practices for Designing Modal Dialogs?
+
+
+
+---
+
+
+
+### What Are Best Practices for Progress Indication on Forms, Registration, and Setup?
+
+
+
+---
+
+
+
+### What Are Best Practices for Designing Shopping Carts?
+
+
+
+---
+
+
+
+### What Is Progressive Disclosure?
+
+
+
+---
+
+
+
+### What Is Deferred and Lazy Registration?
+
 
 
 ---
