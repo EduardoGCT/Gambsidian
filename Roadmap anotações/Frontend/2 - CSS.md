@@ -1601,13 +1601,32 @@ The last consideration is to have clear section titles, percentages, or steps. I
 
 The first design consideration is making sure the shopping cart is visible to users at all times. Most shopping cart designs will have the cart displayed in the upper right hand corner of the page. Users should see the number of items in their cart displayed next to the cart icon, and be able to click on the cart to see more details about the items they are purchasing.
 
+Another consideration is providing a clear way for users to update the quantity of items in their cart. This can be done by providing a quantity input field next to each item in the cart. Users can easily update the quantity of an item by changing the number in the input field.
 
+You should also provide a "Remove" button next to each item in the cart. This allows users to easily remove items from their cart. You don't want to make it difficult for users to remove items from their cart, as this can lead to frustration and abandoned carts.
+
+Another consideration is the shopping cart icon itself. The icon should be something easily recognizable for all users. A common icon is a shopping cart with a handle and wheels. Other icons might be a shopping bag or a basket. But you don't want to choose an icon that is too abstract or difficult to understand.
+
+When the user wants to review the total in their cart, they should be able to easily find the total cost of all items in the cart. This should be displayed prominently on the page, so users don't have to search for it.
+
+![[Pasted image 20260616154815.png]]
+
+Finally, you should provide a clear call-to-action button for users to proceed to checkout. This button should be prominently displayed on the page, so users don't have to search for it.
+
+You don't want to have too many buttons on the page, as this can lead to confusion. The call-to-action button should be the most prominent button on the page, so users know exactly what to do next. You should use the brand's primary color for the button, so it stands out from the rest of the page.
 
 ---
 
 
 
 ### What Is Progressive Disclosure?
+
+A progressive disclosure is a design pattern used to only show users relevant content based on their current activity and hide the rest. This is done to reduce cognitive load and make the user experience more intuitive.
+
+![[Pasted image 20260616155006.png]]
+
+![[Pasted image 20260616155013.png]]
+
 
 
 
@@ -1616,6 +1635,27 @@ The first design consideration is making sure the shopping cart is visible to us
 
 
 ### What Is Deferred and Lazy Registration?
+
+Lazy registration is a UI design pattern that allows users to browse and interact with your application without having to register. A good example of this would be an e-commerce site. Users should be able to browse through the products and add a few items to their cart. Then, if they are interested in purchasing, they will need to register.
+
+The reason is that users need to see the value your site offers before they are willing to provide their information and register. When designing your applications, users should be able to see the value and feel like the application is safe to provide their information. Otherwise, they will not be willing to register and you will lose potential customers.
+
+You will need to make sure to communicate that the user's sensitive data will be protected and secure. In later modules, we will discuss how to secure your application and protect your user's data.
+
+Another good example of lazy registration would be YouTube. YouTube is a video sharing platform with millions of videos on everything from tech, pop culture, and gaming. If you visit YouTube, users can watch as many videos as they like without needing to sign in or register. However, if they want to like, comment, or subscribe to a channel, they will need to register.
+
+If the user likes the content they are watching or wants to participate in the conversations, then they will be more willing to register. Lazy registration is a useful design pattern that allows users to see the value of your application before they are willing to provide their information.
+
+The next time you are designing an application, consider using lazy registration to increase user engagement and retention.
+
+---
+
+
+
+## Common Design Tools
+
+
+### What Are Design Briefs and How Do Developers Work with Them?
 
 
 
