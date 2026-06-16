@@ -1289,6 +1289,20 @@ In general, when it comes to design, you always want to be mindful of the user e
 
 ### What Are Best Practices for Designing Breadcrumbs?
 
+When it comes to web design, there are many types of navigational aids you can use. Examples include top navigation bars, sidebars, and footers. But if your site is on the more complex side with deeper levels of navigation, you might want to consider using breadcrumbs.
+
+Breadcrumbs are a navigation aid that shows the user where they are in the site's hierarchy. Here is an example of what breadcrumbs look like for a mock-up electronics website:
+
+**Home / Electronics / Phones / Smartphone XYZ**
+
+In most websites, breadcrumbs are displayed at the top of the page, showing the user the path they took to get to the current page. Starting from the `Homepage`, the user navigated to the `Electronics` category, then to the `Phones` category, and finally to the `Smartphone XYZ` product. You have probably interacted with breadcrumbs on a website as you were searching for a product or specific piece of information.
+
+The use of breadcrumbs is helpful because it can help users understand where they are in the site's hierarchy and how to navigate back to the previous pages. This is especially useful when a user has come from a search result or an external link and needs to understand the context of the page they are on.
+
+When it comes to designing breadcrumbs, there are a few considerations to keep in mind. The first is to decide on what the separator will be. The separator is the character that separates the different levels of the hierarchy. Common separators include the greater than sign (`>`), right angle quotation marks (`»`) ,and the forward slash (`/`).
+
+The second consideration is the placement of the breadcrumbs. Breadcrumbs are typically placed at the top of the page, either above or below the main navigation bar. Users shouldn't have to struggle to find the breadcrumbs, so make sure they are visible and easy to locate.
+
 
 
 ---
@@ -1296,6 +1310,22 @@ In general, when it comes to design, you always want to be mindful of the user e
 
 
 ### What Are Best Practices for Designing Cards?
+
+The first consideration for card design should be simplicity. You don't want your cards to be visually cluttered or display too much information. For example, if a card design is visually cluttered, there will be too much information for the user to process all at once.
+
+Here is an example of a cluttered card design:
+
+![[Pasted image 20260616143740.png]]
+
+Having less information and good spacing between items on the card makes it easier for the user to process the information, and allows for multiple cards on the page.
+
+![[Pasted image 20260616143844.png]]
+
+
+Another thing to consider is where the user can click on the card. Some card designs will have a single button, making it obvious where the user can click. Other card designs will have the entire card clickable. When the user hovers over any part of the card, the card will change color or have a shadow effect to indicate that the card is clickable. Whatever design you choose, it needs to be consistent throughout your site and easy for the user to understand.
+
+![[Pasted image 20260616143934.png]]
+
 
 
 
