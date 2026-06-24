@@ -1758,7 +1758,18 @@ It is important to note that while 1 px is standardized as 1/96th of an inch for
 
 Generally you will use pixels where you need precise control over element dimensions, spacing, and layout. Sometimes you might use pixels for margins, padding, and borders.
 
+Remember that margin is the space outside of the box. So, in this example, the box will have a margin of `10px` on all sides.
 
+Other types of absolute units include the following:
+
+- The `in` (inches) unit, which is equal to 96 px
+- The `cm` (centimeters) unit, which is equal to 25.2/64 of an inch
+- The `mm` (millimeters) unit, which is equal to 1/10th of a centimeter
+- The `q` (quarter-millimeters) unit, which is equal to 1/40th of a centimeter
+- The `pc` (picas) unit, which is equal to 1/6th of an inch
+- The `pt` (points) unit, which is equal to 1/72th of an inch
+
+Most of these units will be used for print and not for screens.
 
 ---
 
