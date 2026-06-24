@@ -1748,7 +1748,17 @@ Other popular design tools developers should know are Framer, InVision, Adobe Ph
 
 ### What Are Absolute Units in CSS, and When Should You Use Them? 
 
-aaa
+There are two types of units you can use to define these properties: relative units and absolute units. 
+
+Absolute length units are of fixed length and are not relative to anything else. Relative means that the length is relative to something else, like the size of the screen or the size of the parent element.
+
+The most common absolute unit is pixel (px). Pixels are a fixed-size unit of measurement in CSS, providing precise control over dimensions. This menas that 1 px is always equal to 1/96th of an inch.
+
+It is important to note that while 1 px is standardized as 1/96th of an inch for the purposes of CSS layout, the actual physical size of a pixel may differ depending on the display.
+
+Generally you will use pixels where you need precise control over element dimensions, spacing, and layout. Sometimes you might use pixels for margins, padding, and borders.
+
+
 
 ---
 
