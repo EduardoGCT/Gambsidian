@@ -1808,6 +1808,11 @@ However, be cautious when nesting elements with percentage-based dimensions, as 
 
 ### What Are ems and rems in CSS, and When Should You Use Them?
 
+`em` units are relative to the font size of the element. If you are using ems for the `font-size` property, the size of the text will be relative to the font size of the parent element.
+
+To better understand how this works, let's take a look at an example:
+![[Pasted image 20260624162624.png]]
+
 
 
 ---
