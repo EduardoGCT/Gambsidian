@@ -1913,6 +1913,65 @@ Using the CSS type selector for selecting the `div`, you can style it with whit
 
 ![[Pasted image 20260624165625.png]]
 
+let's cover some of its best practices.
+
+First, you must surround the addition (`+`) and subtraction (`-`) operators with whitespace.
+
+For example, the expression below would not be a valid expression because the subtraction operator is immediately before the second operand.
+
+```css
+calc(100% -30px)
+```
+
+The subtraction (`-`) operator must be surrounded by whitespace, like this. Adding the whitespace will create a valid expression.
+
+```css
+calc(100% - 30px)
+```
+
+This is not necessary for the multiplication and division operators but it's highly recommended.
+
+You can also nest `calc()` function calls if you need to perform calculations and use those results in other calculations.
+
+Also, if you use the value zero to represent length in the expression that you pass into the `calc()` function, you must include the units. For example, this expression would not be valid:
+
+```css
+calc(100% - 0)
+```
+
+You would need to add the units, like px.
+
+```css
+calc(100% - 0px)
+```
+
+You should also know that currently, if you use the multiplication or division operators, one of the operands has to be unitless. For the division operator, specifically the right operand has to be unitless. This would not be a valid expression because both operands have units (pixels). One of the operands, either 5 or 50, must be unitless:
+
+```css
+calc(5px * 50px)
+```
+
+You would need to omit the units in one of them. Both of these alternatives would be valid:
+
+```css
+calc(5 * 50px)
+calc(5px * 50)
+```
+
+And this is an example with the division operator. This would not be a valid expression since they both have units:
+
+```css
+calc(50% / 5%)
+```
+
+You should remove the unit from the right operand when you have the division operator:
+
+```css
+calc(50% / 5)
+```
+
+The `calc()` function can be very helpful for you as a web developer. With this function, you can set property values dynamically to create flexible and responsive designs.
+
 
 
 ---
