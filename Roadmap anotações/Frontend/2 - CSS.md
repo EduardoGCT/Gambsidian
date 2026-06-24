@@ -1836,6 +1836,84 @@ For those with visual impairments, they may increase the font size to make it ea
 One way to address this issue is to use `rem` units for typography. A `rem` unit is relative to the font size of the root element, which is the `html` element.
 
 By default, the font size of the `html` element is `16px`. If the user increases the font size in their browser settings, the font size of the `html` element will increase, and all rem units will scale proportionally.
+![[Pasted image 20260624163524.png]]
+
+By setting the font size to `1.2rem`, the font size of the paragraph element will be 1.2 times the font size of the root element. If the user hasn't changed the default font size, the font size of the paragraph element will be `19.2px` because it is 1.2 times `16px`.
+
+So when should you use `rem` units? `rem` units are preferred over pixels for typography because they scale proportionally with the user's browser settings. This makes your content more accessible to users with visual impairments.
+
+`rem` units can also help maintain consistent spacing and layout across different elements.
+
+---
+
+
+
+### What Are vh and vw Units, and When Should You Use Them?
+
+`vh and vw` are viewport-relative units that allow you to size elements based on the dimension of the browser window. These units are particularly useful for creating responsive designs that adapt to different screen sizes. 
+
+`vh` stands for "viewport height," and `1vh` is equal to 1% of the viewport's width.
+
+This means that if you set an element's height to `100vh`, it will occupy the full height of the viewport, regardless of the actual pixel dimensions of the device. 
+
+These units are especially handy when you want to create full-screen layouts or elements that maintain a specific proportion of the screen.
+
+For example, you might want to use them to create a hero section that always fills the entire screen.
+![[Pasted image 20260624164353.png]]
+
+This CSS ensures that the hero section will always be exactly the size of the viewport, regardless of the device's screen size.
+
+`vh` and `vw` units can also be used for typography to create responsive text sizes.
+
+One of the advantages of `vh` and `vw` units is that they respond to changes in the viewport size in real-time. This means that if a user resizes their browser window, elements sized with these units will adjust accordingly without needing to reload the page. However, it's important to use these units judiciously. Setting font sizes solely with `vw` units, for example, can lead to text becoming too small on narrow screens or too large on wide screens.
+
+Another consideration is that on mobile devices, the viewport height can change when the browser's address bar appears or disappears, which can cause unexpected layout shifts if you're using `vh` units extensively.
+
+In summary, `vh` and `vw` units are powerful tools for creating responsive layouts and elements that adapt to the viewport size. They're particularly useful for full-screen sections, maintaining aspect ratios, and creating smoothly scaling designs. However, they should be used thoughtfully and often in combination with other CSS techniques to ensure the best user experience across all devices.
+
+---
+
+
+
+### What is the calc() Function, and How Does It Work?
+
+With the `calc()` function, you can perform calculations directly within your stylesheets to determine property values dynamically. This means that you can create flexible and responsive user interfaces by calculating dimensions based on the viewport size or other elements.
+
+In the world of programming, when we run the task performed by a function, we say that we "call" the function. The values that we pass into the function are known as arguments.
+
+Like you can see in the code below, to call a function, you write its name followed by the arguments within parentheses, separated by commas. There shouldn't be a space between the name of the function and the opening parenthesis:
+
+```css 
+function(argument1, argument2, argument3) 
+```
+
+A function may only need one value to know what to do. In that case, it will only take one argument. That's what happens with the `calc()` function. It takes one argument because it needs to know what to calculate.
+
+For this, you pass something called an expression as an argument. An expression is a combination of values and operators that produces a result.
+
+This is how you can call the `calc()` function. You write the name calc, followed by parentheses, and within the parentheses, you write the expression:
+
+```css
+calc(expression)
+```
+
+The expression is evaluated to calculate the final result. "Evaluated" just means that the values and operators are converted into a single value behind the scenes. The result is assigned to the CSS property where the calculation is being made.
+
+You can perform calculations on values that represent length, angle, time, percentages, numbers, and colors. You can also combine different units like pixels, percentages, and ems.
+
+With numbers, all the values in the expression, also called the operands, must have their corresponding units, like `px`, `em`, and percentage (`%`). Depending on the operator, different operands may have different units.
+
+You can use the addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`) operators in the expression.
+
+If there are multiple operands and operators, `calc()` will follow the standard operator precedence rule. You can also add parentheses to establish the order of the operations if needed.
+
+In the example below, you can see a `div` with the text `Hello, World!`.
+
+Using the CSS type selector for selecting the `div`, you can style it with white text and a dark blue background:
+
+![[Pasted image 20260624165625.png]]
+
+
 
 ---
 
