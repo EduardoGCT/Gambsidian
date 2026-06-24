@@ -1789,6 +1789,25 @@ Percentages are ideal for creating fluid layouts that adjust to various screen s
 
 Using percentages for flexible images is another common practice. By applying `max-width: 100%;` to images, you allow them to scale down on smaller screens while maintaining their aspect ratio.
 
+![[Pasted image 20260624155625.png]]
+
+While less common, percentages can also be used for font sizes to create scalable typography. For example, `font-size: 120%` would make the text 20% larger than its parent's font size.
+![[Pasted image 20260624155907.png]]
+
+Percentages can be particulary handy for vertical centering. Here's an example of how you might use percentages with the `transform` property to center an element vertically. 
+
+This example positions the element 50% from the top of its container, then uses `transform` to move it back up by half its own height, effectively centering it vertically.
+
+Remember, percentages are always relative to something. For horizontal properties like `width`, they're relative to the parent's width. For vertical properties like `height`, they're usually relative to the parent's height (if specified).
+
+However, be cautious when nesting elements with percentage-based dimensions, as this can lead to unexpected results. Also, keep in mind that percentage-based heights can be tricky if the parent doesn't have a defined height.
+
+---
+
+
+
+### What Are ems and rems in CSS, and When Should You Use Them?
+
 
 
 ---
