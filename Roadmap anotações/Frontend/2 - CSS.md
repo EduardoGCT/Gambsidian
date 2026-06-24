@@ -1783,6 +1783,12 @@ For example, if you set `width: 50%;` on an element, it will occupy half the wid
 
 ![[Pasted image 20260624153142.png]]
 
+Percentages are ideal for creating fluid layouts that adjust to various screen sizes. For instance, setting a container to `width: 80%;` ensures it takes up 80% of its parent's width, regardless of the device.
+
+![[Pasted image 20260624154023.png]]
+
+Using percentages for flexible images is another common practice. By applying `max-width: 100%;` to images, you allow them to scale down on smaller screens while maintaining their aspect ratio.
+
 
 
 ---
