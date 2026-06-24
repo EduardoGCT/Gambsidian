@@ -1774,3 +1774,17 @@ Most of these units will be used for print and not for screens.
 ---
 
 
+
+### What Are Percentages in CSS, and When Should You Use Them?
+
+Percents in CSS are relative units that allow you to define sizes, dimensions, and other properties as a proportion of their parent element. When you use a percentage value, you're essentially saying, "make this X% of its container."
+
+For example, if you set `width: 50%;` on an element, it will occupy half the width of its parent container. This makes percentages incredibly useful for creating responsive designs that adapt to different screen sizes.
+
+![[Pasted image 20260624153142.png]]
+
+
+
+---
+
+
