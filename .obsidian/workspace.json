@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metas/Motivos para continuar estudando programação.md",
+                "file": "Roadmap anotações/Backend/1.a - C Sharp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Motivos para continuar estudando programação"
+              "title": "1.a - C Sharp"
             }
           }
         ]
@@ -195,8 +195,8 @@
   },
   "active": "69d89c7e6c84692b",
   "lastOpenFiles": [
-    "Roadmap anotações/Frontend/2 - CSS.md",
     "Metas/Motivos para continuar estudando programação.md",
+    "Roadmap anotações/Frontend/2 - CSS.md",
     "Metas",
     "Roadmap anotações/Frontend/1 - HTML.md",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624165625.png",
