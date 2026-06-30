@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap anotações/Backend/1.a - C Sharp.md",
+                "file": "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.a - C Sharp"
+              "title": "Site para criação de currículos grátis e com pouco anúncio"
             }
           }
         ]
@@ -195,6 +195,7 @@
   },
   "active": "69d89c7e6c84692b",
   "lastOpenFiles": [
+    "Roadmap anotações/Backend/1.a - C Sharp.md",
     "Metas/Motivos para continuar estudando programação.md",
     "Roadmap anotações/Frontend/2 - CSS.md",
     "Metas",
@@ -215,7 +216,6 @@
     "Roadmap anotações/Frontend/8 - React.md",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260618212707.png",
     "Roadmap anotações/Tecnologias que vou focar frontend.md",
-    "Roadmap anotações/Backend/1.a - C Sharp.md",
     "Roadmap anotações/Backend/Pseudo code at algorithms.md",
     "Algorithms/Exercises.md",
     "Algorithms",
