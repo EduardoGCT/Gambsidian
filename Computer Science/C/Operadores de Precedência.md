@@ -6,3 +6,5 @@
 [[Operadores de Comparação]]
 
 [[Operadores de Atribuição]]
+
+## [[Precedência dos Operadores]]

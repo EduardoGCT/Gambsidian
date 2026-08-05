@@ -13,22 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/C/C.md",
+                "file": "Computer Science/C/Operadores de Precedência.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C"
+              "title": "Operadores de Precedência"
             }
           },
           {
-            "id": "1f9e12afbe02bfb6",
+            "id": "ab1b0fb0325c31f7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Precedência dos Operadores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Precedência dos Operadores"
             }
           }
         ],
@@ -206,12 +210,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f9e12afbe02bfb6",
+  "active": "ab1b0fb0325c31f7",
   "lastOpenFiles": [
-    "Computer Science/Computer Science.md",
-    "Computer Science/C/C.md",
-    "Computer Science/C/Elementos essenciais da Linguagem C.md",
     "Computer Science/C/Operadores de Precedência.md",
+    "Precedência dos Operadores.md",
+    "Computer Science/C/Elementos essenciais da Linguagem C.md",
+    "Computer Science/C/C.md",
+    "Computer Science/Computer Science.md",
     "Computer Science/C/Especificadores ou Modificadores de Tipo.md",
     "Computer Science/C/Tipos básicos de dados, classes de aramazenamento, especificadores e operadores.md",
     "Computer Science/C/Classes de Armazenamento.md",
@@ -240,7 +245,6 @@
     "Metas/Motivos para continuar estudando programação.md",
     "Introduction to Algorithms",
     "Roadmap anotações/Tecnologias que vou focar backend.md",
-    "Roadmap anotações/Tecnologias que vou focar frontend.md",
     "Metas",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624165625.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624165615.png",
