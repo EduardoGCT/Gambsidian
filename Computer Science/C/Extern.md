@@ -1,0 +1,1 @@
+Informa que a variável é definida externamente. Comum em programas com múltiplos arquivos.

@@ -1,0 +1,1 @@
+Recomenda que a variável seja armazenada em um registro da CPU para acesso rápido. Especialmente útil em loops frequentes.

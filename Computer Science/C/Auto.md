@@ -1,0 +1,1 @@
+Usada para variáveis locais, desaparece após o uso em um bloco ou função.

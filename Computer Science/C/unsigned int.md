@@ -1,0 +1,1 @@
+Guarda apenas valores positivos. Maior capacidade do que um int comum. Ideal para contagens.

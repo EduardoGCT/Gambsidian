@@ -1,0 +1,1 @@
+Preserva seu valor entre chamadas de função. Exemplo: Manter estados como um contador de visitas.
