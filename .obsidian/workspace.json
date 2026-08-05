@@ -20,13 +20,7 @@
               "icon": "lucide-file",
               "title": "C"
             }
-          }
-        ]
-      },
-      {
-        "id": "c5060c4d384c6bf5",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "1f9e12afbe02bfb6",
             "type": "leaf",
@@ -37,7 +31,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,6 +208,7 @@
   },
   "active": "1f9e12afbe02bfb6",
   "lastOpenFiles": [
+    "Computer Science/Computer Science.md",
     "Computer Science/C/C.md",
     "Computer Science/C/Elementos essenciais da Linguagem C.md",
     "Computer Science/C/Operadores de Precedência.md",
@@ -245,7 +241,6 @@
     "Introduction to Algorithms",
     "Roadmap anotações/Tecnologias que vou focar backend.md",
     "Roadmap anotações/Tecnologias que vou focar frontend.md",
-    "Idéias de Projetos/Site para criação de currículos grátis e com pouco anúncio.md",
     "Metas",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624165625.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624165615.png",
