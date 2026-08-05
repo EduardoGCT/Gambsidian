@@ -5,6 +5,8 @@ The core idea behind this channel is **metamorphosis**. To me, this concept is a
 
 Oh, by the way, my name is Eduardo, but my online friends call me Gambs. There are a few things I'm really passionate about: developing software, studying Computer Science in college, hitting the gym, gaming, and spending quality time with my loved ones. Right now, I'm focusing on my studies and looking for a good development internship to officially break into the tech industry.
 
+a
+
 But to be real with you guys, my life isn't exactly where I pictured it would be a few years ago. I had to move back in with my mom, money is tight, and my daily routine is a mess. I'm out of shape, sedentary, and dealing with a lot of things. But that's exactly what needs to change. First things first: I need to fix my routine. And the very first step is my sleep schedule. I’m going to set a fixed time to wake up every day and go for a run to finally get some exercise in.
 
 To be completely honest, I just hit a point where I couldn't take it anymore. I looked at myself in the mirror and realized that the pain of staying the same was bigger than the pain of changing. I am tired of being stuck. I'm tired of having the same bad days, the same bad habits, and feeling like I’m wasting my potential. That’s why this channel exists. It's a tool to force myself to grow, because staying here is no longer an option.
