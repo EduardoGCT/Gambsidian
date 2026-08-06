@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/C/Estruturas Condicionais.md",
+                "file": "Estrutura switch-case.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estruturas Condicionais"
+              "title": "Estrutura switch-case"
             }
           }
         ],
@@ -212,8 +212,9 @@
   },
   "active": "1738610e25507bf7",
   "lastOpenFiles": [
-    "Computer Science/C/Estruturas Condicionais e de repetição.md",
     "Computer Science/C/Estruturas Condicionais.md",
+    "Estrutura switch-case.md",
+    "Computer Science/C/Estruturas Condicionais e de repetição.md",
     "Computer Science/C/C.md",
     "Computer Science/C/Elementos essenciais da Linguagem C.md",
     "Computer Science/Computer Science.md",
@@ -243,7 +244,6 @@
     "Roadmap anotações/Frontend/imgs/Pasted image 20260706214906 1.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260706214906.png",
     "life change",
-    "Introduction to Algorithms/Router.md",
     "Introduction to Algorithms",
     "Metas",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624165625.png",
