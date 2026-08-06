@@ -7,8 +7,6 @@
 		2. else
 		3. else if
 
-### [[Estrutura switch-case]]
-
 
 ### Exemplo prático 
 

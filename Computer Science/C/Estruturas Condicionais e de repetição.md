@@ -3,3 +3,6 @@ São comandos da lógica de programação que controlam o fluxo de execução de
 
 [[Estruturas Condicionais]]
 
+ [[Estrutura switch-case]]
+
+[[Estrutura de Repetição]]
