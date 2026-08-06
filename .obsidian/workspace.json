@@ -31,8 +31,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +205,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c66abf7cb0ea5c9",
+  "active": "5195168ca1b852df",
   "lastOpenFiles": [
     "Ponteiros.md",
     "Computer Science/C/Vetores, matrizes, ponteiros e alocação dinâmica de memória.md",
