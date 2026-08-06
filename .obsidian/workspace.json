@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/C/Vetores, matrizes, ponteiros e alocação dinâmica de memória.md",
+                "file": "Ponteiros.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vetores, matrizes, ponteiros e alocação dinâmica de memória"
+              "title": "Ponteiros"
             }
           },
           {
@@ -31,7 +31,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,10 +206,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5195168ca1b852df",
+  "active": "5c66abf7cb0ea5c9",
   "lastOpenFiles": [
-    "Vetores.md",
+    "Ponteiros.md",
     "Computer Science/C/Vetores, matrizes, ponteiros e alocação dinâmica de memória.md",
+    "Matrizes.md",
+    "Vetores.md",
     "Computer Science/C/C.md",
     "Computer Science/Computer Science.md",
     "Computer Science/C/Elementos essenciais da Linguagem C.md",
@@ -231,8 +234,6 @@
     "Computer Science/C/Operadores de Atribuição.md",
     "Computer Science/C/unsigned int.md",
     "Computer Science/C/Operadores Aritméticos.md",
-    "Computer Science/C/Operadores Lógicos.md",
-    "life change/Dicas do Daniel.md",
     "Computer Science/C",
     "Untitled",
     "Computer Science",
