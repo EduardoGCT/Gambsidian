@@ -4,4 +4,3 @@
 
 [[Vetores, matrizes, ponteiros e alocação dinâmica de memória]]
 
-a
