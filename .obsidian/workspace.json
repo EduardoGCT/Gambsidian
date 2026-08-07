@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ponteiros.md",
-                "mode": "source",
+                "file": "Computer Science/C/Vetores, matrizes, ponteiros e alocação dinâmica de memória.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ponteiros"
+              "title": "Vetores, matrizes, ponteiros e alocação dinâmica de memória"
             }
           },
           {
@@ -31,7 +31,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,14 +206,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5195168ca1b852df",
+  "active": "5c66abf7cb0ea5c9",
   "lastOpenFiles": [
-    "Ponteiros.md",
-    "Computer Science/C/Vetores, matrizes, ponteiros e alocação dinâmica de memória.md",
-    "Matrizes.md",
-    "Vetores.md",
-    "Computer Science/C/C.md",
     "Computer Science/Computer Science.md",
+    "Computer Science/Estrutura de Dados/Estrutura de Dados.md",
+    "Computer Science/Estrutura de Dados",
+    "Computer Science/Análise de Dados/Análise de Dados.md",
+    "Computer Science/Análise de Dados",
+    "Computer Science/Ciencia de Dados em Python/Ciencia de dados em Python.md",
+    "Computer Science/Ciencia de Dados em Python",
+    "Computer Science/Cálculo Diferencial e Integral/Cálculo Diferencial e Integral.md",
+    "Computer Science/Cálculo Diferencial e Integral",
+    "Computer Science/Modelagem de Sistemas em Uml/Modelagem de Sistemas em Uml.md",
+    "Computer Science/Modelagem de Sistemas em Uml/Uml Para Modelos do Domínio.md",
+    "Computer Science/Modelagem de Sistemas em Uml",
+    "Computer Science/C/Vetores, matrizes, ponteiros e alocação dinâmica de memória.md",
+    "Computer Science/C/Ponteiros.md",
+    "Computer Science/C/Matrizes.md",
+    "Computer Science/C/Vetores.md",
+    "Computer Science/C/C.md",
     "Computer Science/C/Elementos essenciais da Linguagem C.md",
     "Computer Science/C/Tipos básicos de dados, classes de aramazenamento, especificadores e operadores.md",
     "Computer Science/C/Classes de Armazenamento.md",
@@ -227,12 +239,6 @@
     "Computer Science/C/Static.md",
     "Computer Science/C/Operadores de Precedência.md",
     "Computer Science/C/Precedência dos Operadores.md",
-    "Computer Science/C/Especificadores ou Modificadores de Tipo.md",
-    "Video ideias/Em busca de uma vida explicável/First one.md",
-    "Computer Science/C/Operadores de Comparação.md",
-    "Computer Science/C/Operadores de Atribuição.md",
-    "Computer Science/C/unsigned int.md",
-    "Computer Science/C/Operadores Aritméticos.md",
     "Computer Science/C",
     "Untitled",
     "Computer Science",
@@ -240,7 +246,6 @@
     "Roadmap anotações/Frontend/imgs/Pasted image 20260706214906.png",
     "life change",
     "Introduction to Algorithms",
-    "Metas",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624165625.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624165615.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624164353.png",
@@ -248,10 +253,6 @@
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624162624.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624155907.png",
     "Roadmap anotações/Frontend/imgs/Pasted image 20260624155625.png",
-    "Roadmap anotações/Frontend/imgs/Pasted image 20260624154023.png",
-    "Algorithms",
-    "Video ideias/Em busca de uma vida explicável/First",
-    "Video ideias/Em busca de uma vida explicável",
-    "Video ideias"
+    "Roadmap anotações/Frontend/imgs/Pasted image 20260624154023.png"
   ]
 }
