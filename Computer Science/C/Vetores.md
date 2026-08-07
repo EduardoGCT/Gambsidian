@@ -6,5 +6,15 @@
 ### Exemplo:
 
 ```c
-int numeros[10];  //define um vetor de dez inteiros
+#include <stdio.h>
+
+int main () {
+	int numeros[10]; //define um vetor de 10 números
+	for (int i = 0; i < 10; i++){
+		numeros[i] = i;
+		printf("%d ", numeros[i]);
+	}
+	
+	return 0;
+}
 ```

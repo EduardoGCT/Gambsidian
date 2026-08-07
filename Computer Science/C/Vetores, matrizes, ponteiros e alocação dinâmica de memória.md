@@ -8,3 +8,4 @@
 
 [[Ponteiros]]
 
+[[Alocação Dinâmica de Memória]]

@@ -4,5 +4,18 @@
 ### Exemplo: 
 
 ```c
-int tabela[4][5]; //define uma matriz de quatro linhas por cinco colunas
+#include <stdio.h>
+
+int main () {
+	int tabela[4][5]; //define uma matriz de 4 linhas e 5 colunas
+	for (int i = 0; i < 4; i++){
+		for (int j = 0; j < 5; j++){
+			tabela[i][j] = i * j;
+			printf("%d ", tabela[i][j]);
+		}
+		prinf("\n");	
+	}
+	
+	return 0;
+}
 ```
