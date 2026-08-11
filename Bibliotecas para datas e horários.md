@@ -6,16 +6,3 @@
 [[Tipos de Dados Importantes]]
 
 [[Funções Importantes Em time.h]]
-
-### Exemplo:
-
-```c
-#include <stdio.h>
-#include <time.h>
-
-int main () {
-	
-}
-```
-
-
