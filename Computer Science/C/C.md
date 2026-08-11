@@ -4,5 +4,5 @@
 
 [[Vetores, matrizes, ponteiros e alocação dinâmica de memória]]
 
-[[Bibliotecas para datas e horários]]
+[[Bibliotecas em C]]
 
