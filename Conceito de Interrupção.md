@@ -1,0 +1,3 @@
+- Um sinal que avisa ao processafor para parar temporariamente o que está fazendo e atender algo mais importante.
+- Usado principalmente para lidar com eventos de hardware.
+- Exemplo: Pressionar uma tecla no teclado gera uma interrupção que informa ao CPU para ler a tecla pressionada.
