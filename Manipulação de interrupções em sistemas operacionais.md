@@ -1,0 +1,2 @@
+- Requer privilégios especiais em sistemas operacionais modernos como windows ou linux.
+- Normalmente gerenciado pelo próprio sistema operacional.

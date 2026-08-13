@@ -1,0 +1,3 @@
+- Envio de sinal ao processdor, seja de software ou hardware.
+- Interrompe o fluxo normal de execução do programa.
+- O processador salva seu estardo atual e executa uma "rotina de serviço de interrupção"(ISR).
