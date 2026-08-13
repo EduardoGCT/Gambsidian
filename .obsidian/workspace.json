@@ -11,13 +11,42 @@
             "id": "004dae91ecf4ef71",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/C/C.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "C"
+            }
+          },
+          {
+            "id": "ab539a0c2220fdc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eventos de Teclado e Mouse.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eventos de Teclado e Mouse"
+            }
+          },
+          {
+            "id": "a1b3039b5333dfe6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,15 +220,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "004dae91ecf4ef71",
+  "active": "a1b3039b5333dfe6",
   "lastOpenFiles": [
+    "Eventos de Teclado e Mouse.md",
+    "Computer Science/C/C.md",
     "Bibliotecas em C.md",
     "Bibliotecas Gráficas em C.md",
     "Bibliotecas Gráficas Populares.md",
     "English vocabulary/Words that i learned while studying.md",
     "Bibliotecas para datas e horários.md",
     "Funções Importantes Em time.h.md",
-    "Computer Science/C/C.md",
     "Computer Science/C/Elementos essenciais da Linguagem C.md",
     "Tipos de Dados Importantes.md",
     "Biblioteca stdio.h.md",
@@ -222,7 +252,6 @@
     "Computer Science/Ciencia de Dados em Python",
     "Computer Science/Cálculo Diferencial e Integral/Cálculo Diferencial e Integral.md",
     "Computer Science/Cálculo Diferencial e Integral",
-    "Computer Science/Modelagem de Sistemas em Uml/Uml Para Modelos do Domínio.md",
     "Computer Science/Modelagem de Sistemas em Uml",
     "Computer Science/C",
     "Untitled",
