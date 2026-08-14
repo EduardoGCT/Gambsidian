@@ -1,5 +1,3 @@
 
 
 [[A interrupção em programação]]
-
-[[ ]]

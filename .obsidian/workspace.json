@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "C"
             }
-          },
-          {
-            "id": "ab539a0c2220fdc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/C/Eventos de Teclado e Mouse.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Eventos de Teclado e Mouse"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e6ebcc2c872bd82",
+  "active": "004dae91ecf4ef71",
   "lastOpenFiles": [
+    "Computer Science/C/Eventos de Teclado e Mouse.md",
     "Computer Science/C/A interrupção em programação.md",
     "Computer Science/C/Manipulação de interrupções em sistemas operacionais.md",
     "Computer Science/C/Uso de Interrupções.md",
@@ -220,7 +206,6 @@
     "Computer Science/C/Operação de uma Interrupção.md",
     "Computer Science/C/Conceito de Interrupção.md",
     "Computer Science/C/A Importância das Interrupções.md",
-    "Computer Science/C/Eventos de Teclado e Mouse.md",
     "Computer Science/C/C.md",
     "Computer Science/C/Bibliotecas em C.md",
     "Computer Science/C/Bibliotecas Gráficas em C.md",
