@@ -1,0 +1,7 @@
+# Ignorar estados de janela e abas abertas
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace-*
+
+# Ignorar estado do gráfico (se você usa muito)
+.obsidian/graph.json
