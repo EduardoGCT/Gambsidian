@@ -1,0 +1,1 @@
+Lê um arquivo

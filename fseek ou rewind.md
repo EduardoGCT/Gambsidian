@@ -1,0 +1,1 @@
+Move o ponto de vistra dentro do arquivo para um posição específica.
