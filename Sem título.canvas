@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"ba4ec4022d02430d","type":"file","file":"Computer Science/C/C.md","x":-220,"y":-220,"width":400,"height":400},
-		{"id":"d147eb7ce900c9f6","type":"file","file":"Computer Science/C/Elementos essenciais da Linguagem C.md","x":540,"y":-80,"width":400,"height":400},
-		{"id":"069adf818f462c42","type":"file","file":"Computer Science/C/Tipos básicos de dados, classes de aramazenamento, especificadores e operadores.md","x":1180,"y":-20,"width":400,"height":400},
-		{"id":"2172b0052f14f373","type":"file","file":"Computer Science/C/Classes de Armazenamento.md","x":1800,"y":40,"width":400,"height":400},
-		{"id":"926cc956160c288c","x":2420,"y":-420,"width":400,"height":400,"type":"file","file":"Computer Science/C/Auto.md"},
-		{"id":"8564f790fae8b453","x":2420,"y":40,"width":400,"height":400,"type":"file","file":"Computer Science/C/Static.md"},
-		{"id":"870ba20939e7abce","x":2420,"y":520,"width":400,"height":400,"type":"file","file":"Computer Science/C/Extern.md"},
-		{"id":"3a3504bc3c07290d","x":2420,"y":1000,"width":400,"height":400,"type":"file","file":"Computer Science/C/Register.md"}
+		{"id":"ba4ec4022d02430d","type":"file","file":"Computer Science/C/C.md","x":-360,"y":-200,"width":400,"height":400},
+		{"id":"d147eb7ce900c9f6","type":"file","file":"Computer Science/C/Elementos essenciais da Linguagem C.md","x":400,"y":-60,"width":400,"height":400},
+		{"id":"069adf818f462c42","type":"file","file":"Computer Science/C/Tipos básicos de dados, classes de aramazenamento, especificadores e operadores.md","x":1040,"y":0,"width":400,"height":400},
+		{"id":"2172b0052f14f373","type":"file","file":"Computer Science/C/Classes de Armazenamento.md","x":1660,"y":60,"width":400,"height":400},
+		{"id":"926cc956160c288c","type":"file","file":"Computer Science/C/Auto.md","x":2280,"y":-400,"width":400,"height":400},
+		{"id":"8564f790fae8b453","type":"file","file":"Computer Science/C/Static.md","x":2280,"y":60,"width":400,"height":400},
+		{"id":"870ba20939e7abce","type":"file","file":"Computer Science/C/Extern.md","x":2280,"y":540,"width":400,"height":400},
+		{"id":"3a3504bc3c07290d","type":"file","file":"Computer Science/C/Register.md","x":2280,"y":1020,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"7ffb022f2bceeb4e","fromNode":"ba4ec4022d02430d","fromSide":"right","toNode":"d147eb7ce900c9f6","toSide":"top"},
