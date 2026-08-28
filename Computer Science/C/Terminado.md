@@ -1,0 +1,1 @@
+Quando o processo completa sua execução e aguarda ser removido da memória.

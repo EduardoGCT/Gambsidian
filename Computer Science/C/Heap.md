@@ -1,0 +1,1 @@
+Memória utilizada dinamicamente durante a execução de processo.

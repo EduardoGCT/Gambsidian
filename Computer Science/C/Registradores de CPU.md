@@ -1,0 +1,1 @@
+Registradores necessários para a execução do processo.

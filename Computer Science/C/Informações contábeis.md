@@ -1,0 +1,1 @@
+Informações sobree uso de CPU, limites de tempo, ID de execução etc.

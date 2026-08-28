@@ -1,0 +1,1 @@
+Dados sobre tabela de páginas, limites de memória e segmentos.

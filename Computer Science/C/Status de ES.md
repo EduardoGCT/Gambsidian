@@ -1,0 +1,1 @@
+Lista de dispositivos de E/S alocados ao processo. 
