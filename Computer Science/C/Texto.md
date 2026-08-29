@@ -1,0 +1,1 @@
+Representa a instrução atual, incluindo o valor do contador do programa e os registros do processador. 

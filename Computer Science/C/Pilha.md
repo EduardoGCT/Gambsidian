@@ -1,0 +1,1 @@
+Armazena dados temporários, como parâmetros de função, endereços de retorno e variáveis locais. 

@@ -1,0 +1,1 @@
+Estado inicial, quando o processo é criado.

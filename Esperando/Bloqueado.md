@@ -1,0 +1,1 @@
+Aguardando algum recurs, como entrada do usuário ou um arquivo. 

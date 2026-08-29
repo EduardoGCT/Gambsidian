@@ -1,0 +1,1 @@
+Permissões de acesso aos recursos do sistema. 

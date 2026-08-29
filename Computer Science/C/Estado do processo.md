@@ -1,0 +1,1 @@
+Situação atual do processo (pronto, executando, esperando etc.)

@@ -1,0 +1,1 @@
+Quando o processador está executando as instruções do processo.

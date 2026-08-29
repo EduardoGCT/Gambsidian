@@ -1,0 +1,1 @@
+Contêm variáveis globais e estáticas.
