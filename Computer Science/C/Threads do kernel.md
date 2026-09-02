@@ -1,0 +1,1 @@
+Gerenciados pelo sistema operacional, com o kernel sendo multithread.

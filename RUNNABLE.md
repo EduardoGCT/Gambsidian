@@ -1,0 +1,1 @@
+A thread está pronta para rodar ou em execução na CPU. O agendador do sistema decide o momento exato de uso do processador.

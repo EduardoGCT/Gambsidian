@@ -1,0 +1,1 @@
+ Vários threads de usuário são mapeados para um thread do kernel. A biblioteca de usuário gerencia os threads. Se um thread fizer uma chamada de bloqueio, todo o processo ficará lento.![[Pasted image 20260901214135.jpg]]

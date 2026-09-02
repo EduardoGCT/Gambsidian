@@ -1,0 +1,1 @@
+A thread aguarda para obter um bloqueio de monitor (lock) para acessar um área protegida.

@@ -1,0 +1,1 @@
+A thread aguarda por um tempo limite definido como sleep() ou wait(tempo).

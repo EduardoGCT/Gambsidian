@@ -1,0 +1,2 @@
+
+Muitos Threads de usuário são multiplexados em menos threads do kernel. Supera os problemas dos outros dois modelos, permitindo execução paralela verdadeira sem impor limites ao número total de threads. Porém, é mais difícil de implementar.![[Pasted image 20260901214641.jpg]]

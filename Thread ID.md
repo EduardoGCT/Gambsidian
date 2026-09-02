@@ -1,0 +1,1 @@
+Identificador exclusivo, gerado pelo sistema operacional.

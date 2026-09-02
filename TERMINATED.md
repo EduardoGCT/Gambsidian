@@ -1,0 +1,1 @@
+A tarefa da thread foi concluída com sucesso ou ocorreu uma exceção não tratada.

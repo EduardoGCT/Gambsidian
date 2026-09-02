@@ -1,0 +1,1 @@
+A thread foi criada pelo programa, mas o método start() ainda não foi chamado.

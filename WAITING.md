@@ -1,0 +1,1 @@
+A thread aguarda indefinidamente por outro thread realizar uma ação específica como wait() ou join().
