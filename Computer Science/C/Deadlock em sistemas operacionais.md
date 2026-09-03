@@ -6,5 +6,3 @@ Se houver um sistema que tem como recursos duas unidades de disco e dois process
 
 ![[Pasted image 20260902222408.jpg]]
 
-Note que ambos os processos ficam bloqueados à espera do recurso que o outro tem. Existem algumas condições necessárias para a ocorrência de um deadlock: 
-
