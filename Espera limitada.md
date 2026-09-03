@@ -1,0 +1,1 @@
+Deve haver um limite para o tempo de espera de um processo para entrar na seção crítica.

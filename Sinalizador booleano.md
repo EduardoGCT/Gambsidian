@@ -1,0 +1,1 @@
+Indica se o processo quer entrar na seção crítica.

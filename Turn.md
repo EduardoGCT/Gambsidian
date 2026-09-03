@@ -1,0 +1,1 @@
+Indica qual processo tem a vez de entrar na seção crítica.

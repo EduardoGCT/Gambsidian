@@ -1,0 +1,1 @@
+Se nenhum processo estiver na seção crítica, os processos aguardando devem decidir quem entra na seção crítica sem atraso.

@@ -1,0 +1,1 @@
+Podem ter qualquer valor e controlam o acesso a recursos com limitações no número de acessos simultâneos.

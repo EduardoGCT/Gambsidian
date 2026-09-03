@@ -1,0 +1,1 @@
+Sua execução não afeta outros processos.
