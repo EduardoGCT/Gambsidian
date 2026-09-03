@@ -1,3 +1,4 @@
 A sincronização de processos coordena a execução de múltiplos processos para garantir acesso controlado a recursos compartilhados, evitando condições de corrida e garantindo a integridade dos dados. Utilizando técnicas como semáforos e a solução de Peterson, a sincronização garante o funcionamento eficiente de sistemas multiprocessos, embora possa aumentar a complexidade e a sobrecarga do sistema. 
 
 [[Sincronização de Processos]]
+[[O conceito de deadlock]]
