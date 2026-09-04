@@ -2,4 +2,3 @@ A sincronização de processos coordena a execução de múltiplos processos par
 
 [[Sincronização de Processos]]
 [[O conceito de deadlock]]
-[[Sincronização de threads com mutex]]
