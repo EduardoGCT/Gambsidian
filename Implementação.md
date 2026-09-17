@@ -1,0 +1,1 @@
+Refere-se à identificação dos programas necessários e sua codificação na linguagem de programação selecionada na fase de projeto, bem como o banco de dados que será usado. 
