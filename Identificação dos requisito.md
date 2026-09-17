@@ -1,1 +1,1 @@
-São as necessidades que os usuários têm e que devem estar contidos nas funcionalidades e propriedades do sistema a ser contruído
+São as necessidades que os usuários têm e que devem estar contidos nas funcionalidades e propriedades do sistema a ser contruido.

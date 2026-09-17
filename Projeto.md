@@ -1,0 +1,1 @@
+Envolve a adequação dos requisitos à forma como serão implementados, utilizando a tecnologia adequada. Define-se a arquitetura e os componentes do sistema, bem como toda a infraestrutura do ambiente computacional necessária para sua construção, incluindo redes de computadores, banco de dados, linguagem de programação e outros elementos.

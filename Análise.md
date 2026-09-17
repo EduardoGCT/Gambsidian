@@ -1,0 +1,1 @@
+Envolve compreender o que o sistema deve fazer para atender às necessidades de seus usuários.
