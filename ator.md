@@ -1,1 +1,1 @@
-O ator é quem utiliza ou interage em um caso de uso, ou seja, é uma entidade externa que interage com o sistema, mas que não faz parte dele?
+O ator é quem utiliza ou interage em um caso de uso, ou seja, é uma entidade externa que interage com o sistema, mas que não faz parte dele.
