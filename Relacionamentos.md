@@ -1,0 +1,4 @@
+
+- [[Inclusão]]
+- [[Extensão]]
+- [[Generalização]]
