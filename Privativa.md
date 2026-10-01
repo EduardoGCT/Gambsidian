@@ -1,0 +1,1 @@
+A visibilidade privativa é invisível externamente à classe em que o atributo está definido.

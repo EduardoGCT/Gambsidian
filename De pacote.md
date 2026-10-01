@@ -1,0 +1,1 @@
+Com visibilidade de pacote, o atributo é visível a qualquer classe que pertença ao mesmo pacote no qual está definida a classe.

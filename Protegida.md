@@ -1,0 +1,1 @@
+A visibilidade protegida é visível para subclasses de classe em que o atributo foi definido.
