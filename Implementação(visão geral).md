@@ -1,0 +1,1 @@
+Codificação das classes definidas nas fazes de análise e projeto em alguma linguagem de programação. 

@@ -1,0 +1,1 @@
+Alguns detalhes da solução. Novas classes (interfaces do sistemas, banco de dados, etc.). Tipos e domínio de atributos: parâmetros, entradas e saídas das operações, etc.

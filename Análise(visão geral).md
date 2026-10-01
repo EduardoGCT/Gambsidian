@@ -1,0 +1,1 @@
+Descrever o problema representado pelo sistema a ser desenvolvido. Modelo conceitual.
