@@ -1,0 +1,1 @@
+As operações apresentam as ações que os objetos de uma classe podem realizar. Como são ações, costumam ser nomeadas com uso de um verbo em um complemento, e terminam com um par de parênteses. Ao contrário dos atributos, que para cada objeto têm o seu próprio valor, os objetos de mesma classe compartilham as suas operações.![[Pasted image 20260930213103.jpg]]

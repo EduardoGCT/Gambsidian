@@ -1,0 +1,1 @@
+São entidades do mundo real que podemos observar, representados no código. 

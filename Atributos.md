@@ -1,0 +1,1 @@
+Os atributos descrevem os dados que deverão ser armazenados pelos objetos dessa classe. Cada atributo de uma classe é de um tipo de dados e possui um conjunto de valores que esse atributo pode assumir, chamado de domínio. 

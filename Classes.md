@@ -1,0 +1,1 @@
+É um modelo ou uma planta arquitetônica usada para criar objetos. 

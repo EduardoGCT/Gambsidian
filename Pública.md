@@ -1,0 +1,1 @@
+Somente as propriedades que são realmente necessárias ao exterior da classe devem ser definidas com visibilidade.

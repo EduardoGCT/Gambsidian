@@ -5,4 +5,4 @@
 
 [[Relacionamentos]]
 
-[[Modelagem de casos de uso na prática]]
+[[Conceito de elementos de uma classe]]
