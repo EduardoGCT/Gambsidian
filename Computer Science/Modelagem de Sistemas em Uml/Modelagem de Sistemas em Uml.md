@@ -10,3 +10,5 @@
  [[Visão geral de do diagrama de classes]]
 
 [[Relacionamento no diagrama de classes]]
+
+[[Visão geral do diagrama de objetos]]
