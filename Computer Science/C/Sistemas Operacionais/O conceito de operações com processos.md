@@ -17,7 +17,7 @@ Durante sua execução, um pocesso transita por dirvesos estados, os quais podem
 1. [[Iniciado]]
 2.  [[Pronto]]
 3.  [[Executando]]
-4.  [[Esperando/Bloqueado]]
+4.  [[Bloqueado]]
 5.  [[Terminado]]
 
 A estrutura PCB varia de acordo com o sistema operacional e é mantida durante todo o ciclo de vida do processo, sendo excluída quando ele termina. 
