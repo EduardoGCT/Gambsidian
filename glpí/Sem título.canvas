@@ -12,7 +12,7 @@
 		{"id":"c5e51dea565c1ce0","x":180,"y":340,"width":270,"height":100,"type":"text","text":"Dispara notificação Novo chamado - Direto e Abre o chamado com status novo"},
 		{"id":"387c0b668e9d7ef2","x":690,"y":340,"width":290,"height":80,"type":"text","text":"Dispara notificação Pendente de dados e abre chamado como pendente"},
 		{"id":"073e88c629363a72","x":835,"y":480,"width":250,"height":60,"type":"text","text":"Cliente responde notificação com os dados"},
-		{"id":"c957a5f7784ac587","x":810,"y":600,"width":340,"height":120,"type":"text","text":"Dispara notificação avisando o status do chamado (Ainda não está certa )"}
+		{"id":"c957a5f7784ac587","x":810,"y":600,"width":340,"height":120,"type":"text","text":"Dispara notificação avisando o status do chamado (Ainda não está certa )                                            "}
 	],
 	"edges":[
 		{"id":"0b3a769c2caa7645","fromNode":"eb34d99535cca4b5","fromSide":"bottom","toNode":"4f534cff46e4b51f","toSide":"top"},
