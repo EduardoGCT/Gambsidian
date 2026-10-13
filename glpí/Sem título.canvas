@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"0902ca5502b895e3","type":"text","text":"CLIENTE MANDA EMAIL","x":20,"y":-400,"width":250,"height":60},
 		{"id":"e5039d99cbdc0503","type":"text","text":"CLIENTE É DOMÍNIO EXTERNO? ","x":20,"y":-280,"width":250,"height":60},
 		{"id":"298c9e340de28a41","type":"text","text":"\tNÃO","x":-170,"y":-140,"width":250,"height":60},
 		{"id":"50ac64d683cb1165","type":"text","text":"\tSIM","x":180,"y":-140,"width":250,"height":60},
@@ -12,7 +11,8 @@
 		{"id":"073e88c629363a72","type":"text","text":"Cliente responde notificação com os dados","x":835,"y":480,"width":250,"height":60},
 		{"id":"c957a5f7784ac587","type":"text","text":"Dispara notificação avisando o status do chamado (Ainda não está certa )                                            ","x":810,"y":600,"width":340,"height":120},
 		{"id":"4f534cff46e4b51f","type":"text","text":"Sim","x":220,"y":220,"width":250,"height":60},
-		{"id":"c5e51dea565c1ce0","type":"text","text":"Dispara notificação Novo chamado - Direto e Abre o chamado com status novo","x":145,"y":330,"width":270,"height":100}
+		{"id":"c5e51dea565c1ce0","type":"text","text":"Dispara notificação Novo chamado - Direto e Abre o chamado com status novo","x":145,"y":330,"width":270,"height":100},
+		{"id":"0902ca5502b895e3","type":"text","text":"CLIENTE MANDA EMAIL","x":20,"y":-720,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"0b3a769c2caa7645","fromNode":"eb34d99535cca4b5","fromSide":"bottom","toNode":"4f534cff46e4b51f","toSide":"top"},
@@ -22,10 +22,10 @@
 		{"id":"f7d85f79a6ca43fb","fromNode":"073e88c629363a72","fromSide":"bottom","toNode":"c957a5f7784ac587","toSide":"top"},
 		{"id":"6973752cc7f2789e","fromNode":"e5039d99cbdc0503","fromSide":"bottom","toNode":"50ac64d683cb1165","toSide":"top"},
 		{"id":"94efb34de4dc9ece","fromNode":"e5039d99cbdc0503","fromSide":"bottom","toNode":"298c9e340de28a41","toSide":"top"},
-		{"id":"d5301659d9d6f4c4","fromNode":"0902ca5502b895e3","fromSide":"bottom","toNode":"e5039d99cbdc0503","toSide":"bottom"},
 		{"id":"390e11235c8a7e98","fromNode":"50ac64d683cb1165","fromSide":"bottom","toNode":"a9d24642209cbbaa","toSide":"top"},
 		{"id":"19ed66c9e918f816","fromNode":"298c9e340de28a41","fromSide":"bottom","toNode":"f7a4834b28891cd8","toSide":"top"},
 		{"id":"906cfe35b502a61d","fromNode":"eb34d99535cca4b5","fromSide":"bottom","toNode":"a88725b946a104e5","toSide":"top"},
-		{"id":"9307185ea36a6eed","fromNode":"a9d24642209cbbaa","fromSide":"bottom","toNode":"eb34d99535cca4b5","toSide":"top"}
+		{"id":"9307185ea36a6eed","fromNode":"a9d24642209cbbaa","fromSide":"bottom","toNode":"eb34d99535cca4b5","toSide":"top"},
+		{"id":"62776fe3e42e34a0","fromNode":"0902ca5502b895e3","fromSide":"bottom","toNode":"e5039d99cbdc0503","toSide":"top"}
 	]
 }
