@@ -9,3 +9,11 @@ Assim surgiu as redes neurais de convolução (CNN) Convolutional Neural Network
 As CNN são uma classe de redes neurais artificiais  que é aplicada com sucesso para visão computacional. 
 
 O projeto da CNN foi desenvolvido para que ela extraia características dos objetos de forma automática e adaptativa, por meio de algoritmo de treinamento de retropropagação, usando, para isso, vários blocos de construção como: 
+
+- Camadas de convolução;
+- Camadas de pool;
+- Camadas totalmente conectadas em estruturas de hierarquias espaciais. 
+
+---
+
+### [[Arquitetura do córtex visual]]
