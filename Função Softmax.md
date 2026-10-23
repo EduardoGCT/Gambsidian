@@ -27,3 +27,52 @@ O processo acontece em duas etapas principais:
 
 - **Soma igual a 1:** Cada saída individual representa a probabilidade de pertencer àquela classe, e a soma de todas as probabilidades do vetor resulta em 1. 
 - **Interdependência:** Ao contrário da função _sigmoid_ (usada para classificação binária ou rótulos independentes), a alteração no valor de uma classe na softmax afeta diretamente a probabilidade das outras. 
+
+### Exemplos:
+
+Exemplo Numérico
+
+Imagine que a sua rede neural gerou as seguintes pontuações brutas (_logits_) para uma imagem que pode ser um **Gato**, **Cachorro** ou **Pássaro**:
+
+- **Gato:** 2.0
+
+- **[Cachorro](https://www.google.com/search?kgmid=%2Fm%2F0bt9lr&q=Cachorro):** 1.0
+- **Pássaro:** 0.1
+
+Ao aplicar a função Softmax, esses números são transformados em probabilidades:
+
+| Classe       | Logit (Entrada) | Cálculo Exponencial (\(e^{z}\)) | Probabilidade Softmax (Saída) |
+| ------------ | --------------- | ------------------------------- | ----------------------------- |
+| **Gato**     | 2.0             | \(e^{2.0} \approx 7.39\)        | **65,9%**                     |
+| **Cachorro** | 1.0             | \(e^{1.0} \approx 2.72\)        | **24,2%**                     |
+| **Pássaro**  | 0.1             | \(e^{0.1} \approx 1.11\)        | **9,9%**                      |
+| **Soma**     | -               | **11.22** (Denominador)         | **100%** (1.0)                |
+
+---
+
+Código em Python
+
+O código abaixo implementa a função de forma eficiente. Note o uso de `np.max(z)` para evitar o erro de _overflow_ (quando os números ficam grandes demais para a memória do computador):
+
+python
+
+``` python
+import numpy as np
+
+def softmax(z):
+    # np.max(z) subtrai o maior valor para garantir estabilidade numérica
+    exp_z = np.exp(z - np.max(z)) 
+    return exp_z / np.sum(exp_z)
+
+# Pontuações brutas (logits) da rede neural
+logits = np.array([2.0, 1.0, 0.1])
+
+# Aplica a função softmax
+probabilidades = softmax(logits)
+
+print("Probabilidades por classe:")
+print(f"Gato:    {probabilidades[0]:.2%}")
+print(f"Cachorro: {probabilidades[1]:.2%}")
+print(f"Pássaro:  {probabilidades[2]:.2%}")
+print(f"Soma total: {np.sum(probabilidades)}")
+```

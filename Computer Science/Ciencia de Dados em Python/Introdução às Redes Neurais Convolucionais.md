@@ -23,3 +23,5 @@ O projeto da CNN foi desenvolvido para que ela extraia características dos obje
 ### [[Camada de preenchimento (Padding)]]
 
 ### [[Função de ativação]]
+
+### [[Camada de Aglomeração (Pooling layer)]]
