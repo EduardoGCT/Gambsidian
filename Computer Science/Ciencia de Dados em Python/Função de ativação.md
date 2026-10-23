@@ -4,3 +4,4 @@ Em redes neurais, ela decide se um neurônio deve "disparar" (enviar sinal adian
 ### [[Função sigmoide]]
 ### [[Função de Tanh]]
 ### [[Função ReLU]]
+### [[Função Softmax]]
