@@ -10,7 +10,7 @@
 		{"id":"e4b58f17bf169393","type":"text","text":"CATEGORIZAÇÃO (HARDWARE / SOFTWARE...)","x":20,"y":-580,"width":250,"height":60},
 		{"id":"e5039d99cbdc0503","type":"text","text":"CLIENTE É DOMÍNIO EXTERNO? ","x":20,"y":-300,"width":250,"height":60},
 		{"id":"20499ef6f7439f38","type":"text","text":"CATEGORIZAÇÃO DE PRIORIDADE (ALTA / MUITO ALTA ...)","x":20,"y":-460,"width":250,"height":80},
-		{"id":"c957a5f7784ac587","type":"text","text":"Dispara notificação avisando o status do chamado                                            ","x":900,"y":600,"width":340,"height":80},
+		{"id":"c957a5f7784ac587","type":"text","text":"Dispara notificação avisando o status do chamado como novo                                          ","x":900,"y":600,"width":340,"height":80},
 		{"id":"a88725b946a104e5","type":"text","text":"não ","x":620,"y":250,"width":250,"height":60},
 		{"id":"4f534cff46e4b51f","type":"text","text":"Sim","x":220,"y":250,"width":250,"height":60},
 		{"id":"387c0b668e9d7ef2","type":"text","text":"Dispara notificação Pendente de dados e abre chamado como pendente","x":690,"y":360,"width":290,"height":80},
