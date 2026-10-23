@@ -1,0 +1,1 @@
+Converte saídas numéricas contínuas (que podem ir de -∞ a +∞) em uma chance percentual de um evento acontecer (por exemplo: spam ou não spam, doente ou saudável).

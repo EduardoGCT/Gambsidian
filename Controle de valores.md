@@ -1,0 +1,1 @@
+Garante que o resultado nunca ultrapasse os limites de 0 e 1, facilitando a interpretação como probrabilidade.
