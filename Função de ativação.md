@@ -2,3 +2,4 @@ Após a aplicação da operação de convolução, os resultados são passados c
 
 Em redes neurais, ela decide se um neurônio deve "disparar" (enviar sinal adiante) ou não, introduzindo não-linearidade para o modelo aprender padrões complexos.
 ### [[Função sigmoide]]
+### [[Função de Tanh]]
