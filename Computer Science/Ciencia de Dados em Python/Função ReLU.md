@@ -21,3 +21,18 @@ A fórmula da ReLU é simples: ela retorna o **valor máximo entre 0 e a entrada
 - **Evita o "desaparecimento do gradiente":** Em funções antigas (como _sigmoid_ ou _tanh_), os valores "saturam" e os gradientes ficam quase zerados em números muito altos ou baixos, travando o aprendizado. Na ReLU, para valores positivos, o gradiente é sempre constante (1), o que faz o treinamento ser muito mais rápido e eficiente.
 
 - **Eficiência computacional:** Como ela só precisa comparar se o número é maior que zero, o cálculo é extremamente leve para o processador ou placa de vídeo.
+
+---
+### Exemplo prático
+
+Imagine um neurônio recebendo os seguintes valores de entrada após uma camada de dados:
+
+- Entrada: `-5` → Saída da ReLU: **`0`**
+
+- Entrada: `-1.2` → Saída da ReLU: **`0`**
+
+- Entrada: `0` → Saída da ReLU: **`0`**
+
+- Entrada: `3.5` → Saída da ReLU: **`3.5`**
+
+- Entrada: `10.8` → Saída da ReLU: **`10.8`**

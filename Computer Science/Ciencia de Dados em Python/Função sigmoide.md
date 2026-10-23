@@ -7,7 +7,7 @@ A função, também chamada de função logística, é dada pela fórmula:
 ### Para que serve? 
 
 - [[Regressão Logística]]
-- [[Função de Ativação]]
+- [[Função de ativação]]
 - [[Controle de valores]]
 
 ---
